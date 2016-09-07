@@ -1,0 +1,6 @@
+RepeatIntent repeat that
+RepeatIntent what
+RepeatIntent what was that
+RepeatIntent again
+AnswerIntent {ANSWER}
+AnswerIntent I don't know

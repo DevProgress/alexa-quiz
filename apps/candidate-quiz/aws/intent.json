@@ -1,0 +1,22 @@
+{
+   "intents": [
+      {
+         "intent": "AMAZON.HelpIntent"
+      },
+     { "intent": "AMAZON.StopIntent"},
+      {
+         "intent": "RepeatIntent"
+
+      },
+      {
+         "intent": "AnswerIntent",
+         "slots": [
+            {
+               "name": "ANSWER",
+               "type": "ANSWERS",
+               "values": ["A","B","C","true","false"]
+            }
+         ]
+      }
+   ]
+}

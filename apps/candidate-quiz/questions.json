@@ -1,0 +1,22 @@
+{
+    "1": {
+        "question": "How many extra days do women have to work into a new year in order to catch up to what their male counterparts made during the previous year?",
+        "answers": {
+            "A": "30 days",
+            "B": "60 days",
+            "C": "90 days"
+        },
+        "answer": "B",
+        "explanation": "On the whole, women have to work nearly 4 months into a new year in order to make the same amount of money that men made during the previous year."
+    },
+    "2": {
+        "question": "True or false: The top 25 hedge-fund managers in America make more money than all of our country's kindergarten teachers combined.",
+        "answer": "true",
+        "explanation": "In 2014, America’s 158 thousand kindergarten teachers made about 8.5 billion dollars collectively. By comparison, the top 25 hedge fund managers in America collectively earned 11.6 billion dollars in 2015."
+    },
+    "3": {
+        "question": "True or false: During his very first appearance as a candidate for president, his announcement speech, Donald Trump said that Mexican immigrants are \"bringing drugs, they’re bringing crime, they’re rapists.\"",
+        "answer": "true",
+        "explanation": "He hasn't gotten more measured from there. Trump has said he would assemble a deportation force to round up and remove 11 million undocumented immigrants living in the United States, and he would overturn President Obama's executive orders on immigration that are keeping millions of immigrant families together."
+    }
+}

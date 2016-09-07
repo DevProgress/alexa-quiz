@@ -1,0 +1,29 @@
+{
+  "name": "alexa-quiz",
+  "version": "1.0.0",
+  "description": "Alexa quiz by DevProgress",
+  "main": "server.js",
+  "dependencies": {
+    "alexa-app-server": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevProgress/alexa-quiz.git"
+  },
+  "keywords": [
+    "alexa-app",
+    "election",
+    "quiz"
+  ],
+  "author": "DevProgress",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevProgress/alexa-quiz/issues"
+  },
+  "homepage": "https://github.com/DevProgress/alexa-quiz#readme"
+}
