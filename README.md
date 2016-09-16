@@ -79,3 +79,10 @@ Sample true/false question:
         "explanation": "In 2014, America’s 158 thousand kindergarten teachers made about 8.5 billion dollars collectively. By comparison, the top 25 hedge fund managers in America collectively earned 11.6 billion dollars in 2015."
     }
 
+Questions file *must* be valid JSON. Paste it into http://jsonlint.com/ to find and fix any errors.
+
+To test how text will sound from Alexa:
+- go to https://developer.amazon.com/ and login with credentials pinned to #proj-alexa_echo-quiz
+- click Alexa in top nav, then Alexa Skills Kit, then candidatequiz (skill name will change)
+- click Test in left nav
+- paste text into Voice Simulator box, then click Listen
