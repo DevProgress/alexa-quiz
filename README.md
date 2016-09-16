@@ -54,6 +54,43 @@ Create Alexa skill on [AWS Developer Console](https://developer.amazon.com/edw/h
 To upload your code, run `alcl push`
 To test, run `alcl test -f filename`; see sample files in `aws` (ie answer-a.json to answer A).  Current and already-seen questions are stored in the session, so you may want to edit that section before testing.
 
+The local version of the skill uses a mock database (associative array with starter data in [mock-data.json](apps/candidate-quiz/db/mock-data.json)).
+
+The Lambda version of the skill saves data to [Firebase](https://firebase.google.com) for persistence between sessions.
+
+Schema:
+
+    {
+        "users": {
+            "userId1": {
+                "q": "3",  // question id
+                "all": {"1": "A", "2": "false"},  // all Q&A for this user
+                "current": {"1": "A", "2": "false"} // current session Q&A
+            }
+        },
+        "logs": {  // global stats
+            "questions": {
+                "1": {  // question id
+                    "A": 3,  // number of A answers
+                    "B": 7,
+                    "C": 4
+                }
+            }
+        }
+    }
+
+To use your own Firebase database:
+- [set up a database](https://firebase.google.com/docs/server/setup)
+- create apps/candidate-quiz/db/config.json like this:
+
+
+    {
+      "project_id": "project id",
+      "private_key": "-----BEGIN PRIVATE KEY-----\n private key data \n-----END PRIVATE KEY-----\n",
+      "client_email": "client email",
+      "databaseURL": "https://database name.firebaseio.com"
+    }
+
 ### non-developers
 
 Question data is in [questions.json](apps/candidate-quiz/questions.json).  Each question must have a unique numeric id.  Each question should contain `question`, `answer`, and `explanation` keys.  `answer` is the correct answer to the question.  Multiple choice questions should have an `answers` section, with `A`, `B`, and `C` sections.
@@ -79,3 +116,10 @@ Sample true/false question:
         "explanation": "In 2014, America’s 158 thousand kindergarten teachers made about 8.5 billion dollars collectively. By comparison, the top 25 hedge fund managers in America collectively earned 11.6 billion dollars in 2015."
     }
 
+Questions file *must* be valid JSON. Paste it into http://jsonlint.com/ to find and fix any errors.
+
+To test how text will sound from Alexa:
+- go to https://developer.amazon.com/ and login with credentials pinned to #proj-alexa_echo-quiz
+- click Alexa in top nav, then Alexa Skills Kit, then candidatequiz (skill name will change)
+- click Test in left nav
+- paste text into Voice Simulator box, then click Listen

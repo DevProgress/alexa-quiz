@@ -1,3 +1,5 @@
+// jshint esversion: 6
+
 var questions = require('./questions.json');
 
 var quiz = {};
@@ -9,7 +11,8 @@ function Question(id) {
 
 Question.prototype = {
     isBoolean: function() {
-        return (this.q.answer === 'true' || this.q.answer === 'false');
+        var a = this.q.answer.toUpperCase();
+        return (a === 'TRUE' || a === 'FALSE');
     },
 
     question: function() {
@@ -59,6 +62,7 @@ Question.prototype = {
 
     isCorrect: function(answer) {
         var correct = this.q.answer;
+        console.log('isCorrect: correct='+correct+' answer='+answer);
         return this.q.answer.toUpperCase() === answer.toUpperCase();
     },
 
@@ -79,29 +83,40 @@ Question.prototype = {
 
 };
 
-quiz.getNextQuestion = function(usedStr) {
-    var used = [];
-    if (usedStr) {
-        used = usedStr.split(',');
-    }
-    console.log('getNextQuestion: used=', used);
+quiz.getNextQuestion = function(used) {
     var avail = [];
     Object.keys(questions).forEach((q) => {
         if (used.indexOf(q) < 0) {
             avail.push(q);
         }
     });
-    console.log('getNextQuestion: avail=', avail);
     if (!avail.length) {
         return null;
     }
     var idx = Math.floor(Math.random() * avail.length);
-    console.log('getNextQuestion: key=', avail[idx]);
     return new Question(avail[idx]);
 };
 
 quiz.getQuestion = function(id) {
     return id ? new Question(id) : null;
+};
+
+quiz.getScore = function(responses) {
+    // responses = {questionId: response, ... }
+    if (!responses) {
+        return 0;
+    }
+    var correct = 0;
+    Object.keys(responses).forEach((questionId) => {
+        if (!questions[questionId]) {
+            return;
+        }
+        var question = new Question(questionId);
+        if (question.isCorrect(responses[questionId])) {
+            correct += 1;
+        }
+    });
+    return correct;
 };
 
 module.exports = quiz;
