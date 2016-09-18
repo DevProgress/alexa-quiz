@@ -106,7 +106,7 @@ app.intent('AMAZON.StopIntent', function(request, response) {
 
 app.intent('CardIntent', function(request, response) {
     response.card(app.card(JSON.parse(request.session('current') || '{}')));
-    response.say('see card for results');
+    response.say('Your results have been sent to the Alexa app.');
 });
 
 app.intent('RepeatIntent', function(request, response) {
