@@ -23,12 +23,13 @@ app.card = function(current) {
         title: 'Quiz results'
     };
     var ids = Object.keys(current);
-    var score = quiz.getScore();
     if (!ids.length) {
         card.content = 'No results for this session.';
         return card;
     }
-    var content = 'You got '+quiz.getScore()+' of '+ids.length+' questions correct.\n';
+    var content = 'You got '+quiz.getScore(current)+' of '+ids.length;
+    content += ids.length === 1 ? ' question' : 'questions';
+    content += ' correct.\n';
     Object.keys(current).forEach((q) => {
         var question = quiz.getQuestion(q);
         var answer = current[q];
@@ -64,7 +65,9 @@ app.startQuiz = function(response, used) {
 };
 
 app.launch(function(request, response) {
+    console.log('launch');
     app.db.loadSession(request.userId).then((savedSession) => {
+        console.log('savedSession=', savedSession);
         var say = [];
         var used = [];
         // copy saved session into current session
@@ -76,10 +79,8 @@ app.launch(function(request, response) {
             Object.keys(session).forEach((key) => {
                 response.session(key, savedSession[key]);
             });
-            say.push('<s>Welcome back for another quiz. <break strength="medium" /></s>');
-        } else {
-            say.push('<s>Welcome to candidate quiz twenty sixteen. <break strength="medium" /></s>');
         }
+        say.push('<s>Welcome to candidate quiz twenty sixteen. <break strength="medium" /></s>');
         say = say.concat(app.startQuiz(response, used));
         response.say(say.join('\n'));
         response.send();
@@ -97,7 +98,7 @@ app.intent('AMAZON.StopIntent', function(request, response) {
     var score = quiz.getScore(current);
     var say = ['Thanks for playing candidate quiz. '];
     if (score) {
-        say.push('You got '+correct+' correct. ');
+        say.push('You got '+score+' questions correct. Check your Alexa app for detailed results.');
     }
     say.push('Remember to vote on November eighth.');
     response.card(app.card(current));
@@ -133,24 +134,23 @@ app.intent('AnswerIntent',
 
     function(request, response) {
         var session = request.sessionDetails.attributes;
-        console.log('answer session=', session);
         // {'1': 'A', '2': 'false'}
         var all = JSON.parse(request.session('all') || '{}');
         var current = JSON.parse(request.session('current') || '{}');
         var used = Object.keys(all);
         var currentQuestionId = request.session('q');
+        console.log('answer question='+currentQuestionId+' session=', session);
         var say = [];
         var q = currentQuestionId ? quiz.getQuestion(currentQuestionId) : null;
-        console.log('answerIntent current=|'+currentQuestionId+'| used=|'+used+'|');
         var score = quiz.getScore(JSON.parse(request.session('current') || '{}'));
         // found question in session; check answer
         if (q) {
-            var answer = request.slot('ANSWER');
+            var answer = request.slot('ANSWER').substr(0, 1).toUpperCase();
             console.log('answer='+answer);
             app.db.logAnswer(currentQuestionId, answer);
             var sayAnswer = q.answer(answer);
             if (q.isCorrect(answer)) {
-                say.push('<s>'+sayAnswer+' is correct!</s>');
+                say.push("<s>That's correct!</s>");
                 score += 1;
             } else {
                 say.push('<s>The correct answer is '+q.answerText()+'.</s>');
