@@ -4,3 +4,5 @@ RepeatIntent what was that
 RepeatIntent again
 AnswerIntent {ANSWER}
 AnswerIntent I don't know
+AnotherIntent another
+CardIntent get results

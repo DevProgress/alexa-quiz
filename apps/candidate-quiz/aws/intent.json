@@ -3,10 +3,17 @@
       {
          "intent": "AMAZON.HelpIntent"
       },
-     { "intent": "AMAZON.StopIntent"},
+      {
+         "intent": "AMAZON.StopIntent"
+      },
+      {
+         "intent": "CardIntent"
+      },
       {
          "intent": "RepeatIntent"
-
+      },
+      {
+         "intent": "AnotherIntent"
       },
       {
          "intent": "AnswerIntent",

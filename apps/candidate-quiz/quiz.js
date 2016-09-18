@@ -15,7 +15,7 @@ Question.prototype = {
         return (a === 'TRUE' || a === 'FALSE');
     },
 
-    question: function() {
+    sayQuestion: function() {
         return '<s>'+this.q.question+'</s>';
     },
 
@@ -41,7 +41,7 @@ Question.prototype = {
     },
 
     questionAndAnswers: function() {
-        var say = [this.question()];
+        var say = [this.sayQuestion()];
         var answers = this.answers();
         if (answers) {
             say.push('<s>Is it?</s>');
