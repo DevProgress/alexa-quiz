@@ -1,7 +1,7 @@
 // jshint esversion: 6
 
 var alexa = require('alexa-app');
-var app = new alexa.app('candidatequiz');
+var app = new alexa.app('quizforamerica');
 var quiz = require('./quiz');
 app.db = require('./db/mock-db');
 
@@ -80,7 +80,7 @@ app.launch(function(request, response) {
                 response.session(key, savedSession[key]);
             });
         }
-        say.push('<s>Welcome to candidate quiz twenty sixteen. <break strength="medium" /></s>');
+        say.push('<s>Welcome to quiz for America. <break strength="medium" /></s>');
         say = say.concat(app.startQuiz(response, used));
         response.say(say.join('\n'));
         response.send();
@@ -96,7 +96,7 @@ app.intent('AMAZON.HelpIntent', function(request, response) {
 app.intent('AMAZON.StopIntent', function(request, response) {
     var current = JSON.parse(request.session('current') || '{}');
     var score = quiz.getScore(current);
-    var say = ['Thanks for playing candidate quiz. '];
+    var say = ['Thanks for playing quiz for America. '];
     if (score) {
         say.push('You got '+score+' questions correct. Check your Alexa app for detailed results.');
     }
