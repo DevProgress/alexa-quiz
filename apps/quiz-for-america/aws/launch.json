@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "session": {
+    "new": true,
+    "sessionId": "amzn1.echo-api.session.abeee1a7",
+    "application": {
+        "applicationId": "amzn1.echo-sdk-ams.app.000000"
+    },
+    "attributes": {},
+    "user": {
+        "userId": "amzn1.account.AM3B227"
+    }
+  },
+  "request": {
+    "type": "LaunchRequest",
+    "requestId": "amzn1.echo-api.request.6919844a",
+    "timestamp": "2015-05-13T12:34:56Z"
+  }
+}
+

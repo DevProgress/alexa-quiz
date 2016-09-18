@@ -16,7 +16,7 @@ Question.prototype = {
     },
 
     sayQuestion: function() {
-        return '<s>'+this.q.question+'</s>';
+        return '<s>Question '+this.id+'. <break strength="x-strong" /> '+this.q.question+'</s>';
     },
 
     answer: function(a) {
@@ -54,15 +54,11 @@ Question.prototype = {
         if (this.isBoolean()) {
             return 'true or false';
         }
-        var answers = Object.keys(this.q.answers).map((letter) => {
-            return this.sayLetter(letter);
-        });
-        return answers.join(' or ');
+        return this.answers();
     },
 
     isCorrect: function(answer) {
         var correct = this.q.answer;
-        console.log('isCorrect: correct='+correct+' answer='+answer);
         return this.q.answer.toUpperCase() === answer.toUpperCase();
     },
 
@@ -71,6 +67,7 @@ Question.prototype = {
             return this.q.answer;
         }
         var answer = this.q.answers[this.q.answer];
+        console.log('answerText: answer='+this.q.answer+' lookup='+answer);
         if (!answer) {
             return '';
         }

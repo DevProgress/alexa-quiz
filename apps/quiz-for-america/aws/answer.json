@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.abeee1a7",
+    "application": {
+      "applicationId": "amzn1.echo-sdk-ams.app.000000"
+    },
+    "attributes": {
+      "current": "{\"10\":\"A\",\"13\":\"B\"}", "q": "6", "all": "{\"10\":\"A\",\"13\":\"B\"}",
+      "q": "4"
+    },
+    "user": {
+      "userId":"amzn1.account.AM3B22"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.6919844a",
+    "timestamp": "2015-05-13T12:34:56Z",
+    "intent": {
+      "name": "AnswerIntent",
+      "slots": {
+        "ANSWER": {
+          "value": "B",
+          "name": "ANSWER"
+        }
+      }
+    }
+  }
+}
