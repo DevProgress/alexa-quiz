@@ -59,7 +59,7 @@ Question.prototype = {
 
     isCorrect: function(answer) {
         var correct = this.q.answer;
-        return this.q.answer.toUpperCase() === answer.toUpperCase();
+        return this.q.answer.toUpperCase().slice(0, 1) === answer.toUpperCase().slice(0, 1);
     },
 
     answerText: function() {

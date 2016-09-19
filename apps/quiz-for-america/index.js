@@ -82,7 +82,8 @@ app.launch(function(request, response) {
         if (!savedSession) {
             say.push("<s>I'll ask a multiple choice question.</s>");
             say.push('<s>Say the letter matching your answer, or say repeat <break strength="medium" /> to hear the question again.</s>');
-            say.push('<s>Each quiz has ten questions. Say stop <break strength="medium" /> to end the quiz early.</s>');
+            say.push('<s>Each quiz has ten questions.</s>');
+            say.push('Say stop <break strength="medium" /> to end the quiz early.</s>');
         }
         say = say.concat(app.startQuiz(response, used));
         response.say(say.join('\n'));
@@ -148,7 +149,19 @@ app.intent('AnswerIntent',
         var score = quiz.getScore(JSON.parse(request.session('current') || '{}'));
         // found question in session; check answer
         if (q) {
-            var answer = request.slot('ANSWER').substr(0, 1).toUpperCase();
+            var answer = request.slot('ANSWER');
+            if (answer === "I don't know") {
+                answer = '';
+            } else {
+                var first = answer.slice(0, 1).toUpperCase();
+                if (q.isBoolean()) {
+                    // TRUE or FALSE
+                    answer = first === 'T' ? 'TRUE' : 'FALSE';
+                } else {
+                    // one uppercase letter
+                    answer = first;
+                }
+            }
             console.log('answer='+answer);
             app.db.logAnswer(currentQuestionId, answer);
             var sayAnswer = q.answer(answer);
