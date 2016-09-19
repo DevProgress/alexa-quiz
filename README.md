@@ -1,12 +1,18 @@
 # Alexa quiz
 
-This repo contains code and content for the DevProgress Alexa app. Keep up with the latest in the #proj-alexa_echo-quiz DevProgress Slack channel.
+This repo contains code and content for the DevProgress Alexa quiz skill. Keep up with the latest in the #proj-alexa_echo-quiz DevProgress Slack channel.
 
-The code is JavaScript, and uses the [alexa-app](https://github.com/matt-kruse/alexa-app) framework for ease of development.  The code is hosted as a [Lambda function](https://aws.amazon.com/lambda/), and saves particupant state to a [Firebase](https://firebase.google.com/) database.
+The skill is built using the [alexa-app](https://github.com/matt-kruse/alexa-app) framework for ease of development.  The code is hosted as a [Lambda function](https://aws.amazon.com/lambda/), and saves user state to a [Firebase](https://firebase.google.com/) database.
 
-Quiz content was born on #proj-mobilequizzes, with minor edits for use in a voice UI.
+The quiz question content was born on #proj-mobilequizzes, with minor edits for use in a voice UI.
 
-You can play with the simulator at https://echosim.io/.  If you're not a developer, find credentials in a pinned message in  #proj-alexa_echo-quiz.
+You can play with the simulator at https://echosim.io/
+
+Run the skill and answer a few questions: [quiz.m4a](https://github.com/DevProgress/alexa-quiz/blob/master/demo/quiz.m4a?raw=true" alt="card image)
+
+Card sent to Alexa app after completing or stopping a quiz:
+
+<img src="https://github.com/DevProgress/alexa-quiz/blob/master/demo/card.png?raw=true" alt="card image" width="360" />
 
 ## Getting started
 
