@@ -1,0 +1,25 @@
+Test your knowledge and learn about history and current issues.  Answer a few questions while getting ready for your day, or turn it into a party game with family and friends.  This quiz covers a broad range of topics, including women's rights, healthcare, education, child care, energy policy, business and jobs, unions, technology, and voting rights.
+
+Sample questions:
+
+In 1832, unions from which region of the country began the fight to regulate child labor?
+- A New England
+- B the West Coast
+- C the Central Plains
+
+Which health care obstacle is addressed by a mental health parity law?
+- A Term limits
+- B Treatment limits
+- C Parental consent
+
+Under Hillary's plan, what is the maximum percentage of household income that should be spent on child care?
+- A 20%
+- B 10%
+- C 30%"
+
+To get started, say "Alexa, run Quiz for America."
+
+For true/false questions, answer with true or false.  For multiple choice questions, say the letter corresponding to your answer.
+
+To repeat a question, say "repeat".  After 10 questions, you'll get a scorecard with questions, answers, and explanations in the Alexa app.  If you want to stop sooner, just say "stop."  This skill has over 150 questions, so you can play multiple times.
+
