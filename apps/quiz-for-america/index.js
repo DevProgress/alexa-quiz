@@ -119,8 +119,7 @@ app.intent('QuizMeOnIntent',
       var questionNumber = request.slot('QUESTION_NUMBER');
       if (quiz.isAskable(questionNumber)) {
         // provide the question
-        var questionIndex = questionNumber - 1;
-        var q = quiz.getQuestion(questionIndex);
+        var q = quiz.getQuestion(questionNumber);
         var say =["<s>Ok, here's question " + questionNumber + " <break strength=\"medium\" /></s>"];
         response.shouldEndSession(false, 'What do you think? Is it '+q.choices()+'?');
         say.push(q.questionAndAnswers());
@@ -128,7 +127,6 @@ app.intent('QuizMeOnIntent',
         response.say(myResponse);
         session.q = q.id;
       } else {
-
         var say ="<s>Sorry, I don't know question " + questionNumber + " <break strength=\"medium\" /></s>";
         response.shouldEndSession(false, 'Ask me for another quiz or to quiz you on another question number.');
         response.say(say);
@@ -141,7 +139,6 @@ app.intent('QuizMeOnIntent',
       });
       app.db.saveSession(request.userId, session).then(() => {
           console.log('saved session');
-          response.say(say.join('\n'));
           response.send();
       });
 });
