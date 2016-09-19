@@ -1,5 +1,11 @@
 # Alexa quiz
 
+<img src="https://github.com/DevProgress/alexa-quiz/blob/master/assets/quiz108.png?raw=true" alt="icon" width="108" />
+
+> Alexa, run Quiz for America
+
+Test your knowledge and learn about history and current issues.  Answer a few questions while getting ready for your day, or turn it into a party game with family and friends.  This quiz covers a broad range of topics, including women's rights, healthcare, education, child care, energy policy, business and jobs, unions, technology, and voting rights.
+
 This repo contains code and content for the DevProgress Alexa quiz skill. Keep up with the latest in the #proj-alexa_echo-quiz DevProgress Slack channel.
 
 The skill is built using the [alexa-app](https://github.com/matt-kruse/alexa-app) framework for ease of development.  The code is hosted as a [Lambda function](https://aws.amazon.com/lambda/), and saves user state to a [Firebase](https://firebase.google.com/) database.
