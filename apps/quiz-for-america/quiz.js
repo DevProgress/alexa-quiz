@@ -16,7 +16,7 @@ Question.prototype = {
     },
 
     sayQuestion: function() {
-        return '<s>Question '+this.id+'. <break strength="x-strong" /> '+this.q.question+'</s>';
+        return '<s>'+this.q.question+'</s>';
     },
 
     answer: function(a) {

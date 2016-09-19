@@ -44,7 +44,6 @@ app.card = function(current) {
         content += '\n'+question.q.explanation+'\n';
     });
     content += '\nContent created by volunteers with DevProgress http://devprogress.us';
-    console.log('content', content);
     card.content = content;
     return card;
 };
@@ -67,7 +66,6 @@ app.startQuiz = function(response, used) {
 app.launch(function(request, response) {
     console.log('launch');
     app.db.loadSession(request.userId).then((savedSession) => {
-        console.log('savedSession=', savedSession);
         var say = [];
         var used = [];
         // copy saved session into current session
@@ -81,6 +79,11 @@ app.launch(function(request, response) {
             });
         }
         say.push('<s>Welcome to quiz for America. <break strength="medium" /></s>');
+        if (!savedSession) {
+            say.push("<s>I'll ask a multiple choice question.</s>");
+            say.push('<s>Say the letter matching your answer, or say repeat <break strength="medium" /> to hear the question again.</s>');
+            say.push('<s>Each quiz has ten questions. Say stop <break strength="medium" /> to end the quiz early.</s>');
+        }
         say = say.concat(app.startQuiz(response, used));
         response.say(say.join('\n'));
         response.send();
@@ -163,8 +166,9 @@ app.intent('AnswerIntent',
         session.current = JSON.stringify(current);
         session.all = JSON.stringify(all);
         // if 10 questions, stop and send results
-        console.log('questions=', Object.keys(current).length);
-        if (Object.keys(current).length === 10) {
+        var numQuestions = Object.keys(current).length;
+        console.log('questions=', numQuestions);
+        if (numQuestions === 10) {
             response.say("<s>Congratulations! You've answered ten questions. "+
                 'Check your Alexa app for detailed results. '+
                 'To start another quiz, say another.'+
@@ -174,7 +178,7 @@ app.intent('AnswerIntent',
             // get next question
             var next = quiz.getNextQuestion(Object.keys(all));
             if (next) {
-                say.push('<s>Next question.</s>');
+                say.push('<s>Question '+(numQuestions+1)+'. <break strength="x-strong" /></s>');
                 say.push(next.questionAndAnswers());
                 session.q = next.id;
                 response.shouldEndSession(false, 'What do you think? Is it '+next.choices()+'?');
