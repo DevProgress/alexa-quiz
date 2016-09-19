@@ -98,6 +98,12 @@ quiz.getQuestion = function(id) {
     return id ? new Question(id) : null;
 };
 
+quiz.isAskable = function(id) {
+    var length = Object.keys(questions).length;
+    var questionIndex = id - 1;
+    return (questionIndex > 0) && (questionIndex <= length);
+}
+
 quiz.getScore = function(responses) {
     // responses = {questionId: response, ... }
     if (!responses) {

@@ -109,6 +109,43 @@ app.intent('AMAZON.StopIntent', function(request, response) {
     response.say(say.join('\n'));
 });
 
+app.intent('QuizMeOnIntent',
+    {
+    "slots":{"QUESTION_NUMBER":"NUMBER"},
+    "utterances":[ "quiz me on question {1-200|QUESTION_NUMBER}" ]
+    },
+    function(request, response) {
+      var session = request.sessionDetails.attributes;
+      var questionNumber = request.slot('QUESTION_NUMBER');
+      if (quiz.isAskable(questionNumber)) {
+        // provide the question
+        var questionIndex = questionNumber - 1;
+        var q = quiz.getQuestion(questionIndex);
+        var say =["<s>Ok, here's question " + questionNumber + " <break strength=\"medium\" /></s>"];
+        response.shouldEndSession(false, 'What do you think? Is it '+q.choices()+'?');
+        say.push(q.questionAndAnswers());
+        var myResponse = say.join('\n');
+        response.say(myResponse);
+        session.q = q.id;
+      } else {
+
+        var say ="<s>Sorry, I don't know question " + questionNumber + " <break strength=\"medium\" /></s>";
+        response.shouldEndSession(false, 'Ask me for another quiz or to quiz you on another question number.');
+        response.say(say);
+        session.q = null;
+      }
+
+      // session management
+      Object.keys(session).forEach((key) => {
+          response.session(key, session[key]);
+      });
+      app.db.saveSession(request.userId, session).then(() => {
+          console.log('saved session');
+          response.say(say.join('\n'));
+          response.send();
+      });
+});
+
 app.intent('CardIntent', function(request, response) {
     response.card(app.card(JSON.parse(request.session('current') || '{}')));
     response.say('Your results have been sent to the Alexa app.');

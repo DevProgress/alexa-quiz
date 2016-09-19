@@ -10,6 +10,15 @@
          "intent": "CardIntent"
       },
       {
+         "intent": "QuizMeOnIntent",
+         "slots" : [
+           {
+             "name" : "QUESTION_NUMBER",
+             "type" : "AMAZON.NUMBER"
+           }
+         ]
+      },
+      {
          "intent": "RepeatIntent"
       },
       {

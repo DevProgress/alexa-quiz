@@ -6,3 +6,4 @@ AnswerIntent {ANSWER}
 AnswerIntent I don't know
 AnotherIntent another
 CardIntent get results
+QuizMeOnIntent quiz me on question {QUESTION_NUMBER}
