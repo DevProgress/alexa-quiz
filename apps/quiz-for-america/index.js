@@ -191,8 +191,12 @@ app.intent('AnswerIntent',
         Object.keys(session).forEach((key) => {
             response.session(key, session[key]);
         });
-        app.db.saveSession(request.userId, session);
-        response.say(say.join('\n'));
+        app.db.saveSession(request.userId, session).then(() => {
+            console.log('saved session');
+            response.say(say.join('\n'));
+            response.send();
+        });
+        return false;
     }
 );
 

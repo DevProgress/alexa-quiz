@@ -1,5 +1,6 @@
 var firebase = require('firebase');
 var config = require('./config.json');
+var md5 = require('md5');
 
 firebase.initializeApp({
     serviceAccount: {
@@ -29,15 +30,12 @@ firebase.initializeApp({
     }
 */
 
-function keyify(userId) {
-    return userId.replace(/\W+/g, '_');
-}
-
 module.exports = {
     label: 'firebase',
 
     loadSession: function(userId) {
-        var uid = keyify(userId);
+        var uid = md5(userId);
+        console.log('load session for ', uid);
         var ref = firebase.database().ref('/sessions/'+uid);
         return ref.once('value').then(function(snapshot) {
             console.log('load: uid='+uid+' saved=', snapshot.val());
@@ -46,14 +44,18 @@ module.exports = {
     },
 
     saveSession: function(userId, session) {
-        var uid = keyify(userId);
+        var uid = md5(userId);
+        console.log('save session for ', uid);
         var ref = firebase.database().ref('/sessions/'+uid);
+        return ref.set(session);
+        /*
         return ref.once('value').then(function(snapshot) {
             var saved = snapshot.val() || {};
             saved = Object.assign(saved, session);
             console.log('save uid='+uid+' saved=', saved);
             ref.set(saved);
         });
+        */
     },
 
     logAnswer: function(questionId, answer) {

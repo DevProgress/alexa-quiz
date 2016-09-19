@@ -16,6 +16,7 @@
   "dependencies": {
     "alexa-app": "git://github.com/kielni/alexa-app.git#multi-newline-for-cards",
     "bluebird": "^3.4.6",
-    "firebase": "^3.3.1"
+    "firebase": "^3.3.1",
+    "md5": "^2.2.1"
   }
 }
