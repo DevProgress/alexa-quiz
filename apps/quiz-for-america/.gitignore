@@ -1,3 +1,4 @@
 aws/lambda.zip
+aws/test.json
 node_modules/
 db/firebase_config.json
