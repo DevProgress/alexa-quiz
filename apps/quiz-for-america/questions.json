@@ -247,9 +247,9 @@
     "26": {
         "question": "How many jobs would Hillary's economic agenda create?",
         "answers": {
-        "A": "7.2 million jobs",
-        "B": "10.4 million jobs",
-        "C": "4.3 million jobs"
+        "A": "7.2 million",
+        "B": "10.4 million",
+        "C": "4.3 million"
         },
         "answer": "B",
         "explanation": "Mark Zandi, one of John McCain's former economic advisors, released a report on the impact of Hillary's economic proposals. It found that \"Secretary Clinton's economic policies when taken together will result in a stronger U.S. economy under almost any scenario\", and projected that her plan would create 10.4 million new jobs."
@@ -502,9 +502,9 @@
     "53": {
         "question": "What fraction of water in our drinking water system is lost through leaks?",
         "answers": {
-        "A": "6-Jan",
-        "B": "8-Jan",
-        "C": "10-Jan"
+        "A": "one sixth",
+        "B": "one eighth",
+        "C": "one tenth"
         },
         "answer": "A",
         "explanation": "Our drinking water systems, parts of which are more than a century old, leak nearly 6 billion gallons every day, or roughly one-sixth of our daily water use. Clinton will work to create a bold agenda to revitalize our aging water infrastructure and make it more sustainable and energy efficient."
@@ -532,8 +532,8 @@
     "56": {
         "question": "How many city parks does Clinton plan to restore and revitalize?",
         "answers": {
-        "A": "1500",
-        "B": "3000",
+        "A": "1,500",
+        "B": "3,000",
         "C": "800"
         },
         "answer": "B",
@@ -707,29 +707,29 @@
     "76": {
         "question": "How many jobs would Hillary's policies create or lose in Ohio?",
         "answers": {
-        "A": "375,000",
-        "B": "-100,000",
-        "C": "300,000"
+        "A": "create 375,000",
+        "B": "lose 100,000",
+        "C": "create 300,000"
         },
         "answer": "A",
         "explanation": "According to analysis by independent economist Mark Zandi (a former advisor to John McCain), the U.S. economy would create more than 10 million jobs under Hillary's policies in her first term alone. The same economist found that Donald Trump's policies would lead to a loss of nearly 3.5 million jobs."
     },
     "77": {
-        "question": "How many jobs would Trump's policies create (+) or lose (-) in Ohio?",
+        "question": "How many jobs would Trump's policies create or lose in Ohio?",
         "answers": {
-        "A": "50,000",
-        "B": "-120,000",
-        "C": "30,000"
+        "A": "create 50,000",
+        "B": "lose 120,000",
+        "C": "create 30,000"
         },
         "answer": "B",
         "explanation": "According to analysis by independent economist Mark Zandi (a former advisor to John McCain), the U.S. economy would create more than 10 million jobs under Hillary's policies in her first term alone. The same economist found that Donald Trump's policies would lead to a loss of nearly 3.5 million jobs."
     },
     "78": {
-        "question": "How many jobs would Hillary's policies create in Pennsylvania?",
+        "question": "How many jobs would Hillary's policies create or lose in Pennsylvania?",
         "answers": {
-        "A": "400,000",
-        "B": "100,000",
-        "C": "-200,000"
+        "A": "create 400,000",
+        "B": "create 100,000",
+        "C": "lost 200,000"
         },
         "answer": "A",
         "explanation": "According to analysis by independent economist Mark Zandi (a former advisor to John McCain), the U.S. economy would create more than 10 million jobs under Hillary's policies in her first term alone. The same economist found that Donald Trump's policies would lead to a loss of nearly 3.5 million jobs."
@@ -890,7 +890,7 @@
         "explanation": "An independent watchdog organization, Charity Watch, recently analyzed the Clinton Foundation and determined that 87% of the funds donated to the foundation went to charity. The group gave the Clinton Foundation an <say-as interpret-as=\"spell-out\">A</say-as> rating!"
     },
     "96": {
-        "question": "What percentage of HIV AIDS patients worldwide have access to treatment thanks to the Clinton Foundation?",
+        "question": "What percentage of <say-as interpret-as=\"spell-out\">HIV</say-as> <say-as interpret-as=\"spell-out\">AIDS</say-as> patients worldwide have access to treatment thanks to the Clinton Foundation?",
         "answers": {
         "A": "17%",
         "B": "33%",
@@ -925,7 +925,7 @@
         "explanation": "The Trump Foundation's funding is largely provided by others. Its top donors are Vince and Linda McMahon of World Wrestling Entertainment. Trump didn't contribute a single check to his foundation from 2009 through 2014, but he does decide where funding goes."
     },
     "100": {
-        "question": "In 2013, the office of Florida state attorney general, Pam Bondi, said it was considering joining the suit against:",
+        "question": "In 20 13, the office of Florida state attorney general, Pam Bondi, said it was considering joining the suit against:",
         "answers": {
         "A": "Trump Foundation",
         "B": "Mar-a-Lago",
@@ -935,14 +935,14 @@
         "explanation": "The Florida attorney general's office received complaints from 20 people claiming they had been defrauded by Trump University and its affiliates. Bondi's office said it was considering joining a lawsuit that the attorney general of New York had already filed."
     },
     "101": {
-        "question": "Around the time Florida was considering joining the suit against Trump University, The Trump Foundation sent a $25,000 check to:",
+        "question": "Around the time Florida was considering joining the suit against Trump University, The Trump Foundation sent a $25,000 check to who?",
         "answers": {
         "A": "Florida Attorney General's office",
         "B": "Bondi's campaign",
         "C": "Trump University"
         },
         "answer": "B",
-        "explanation": "In 2013, while her office was considering joining the suit against Trump University, Florida state attorney general Pam Bondi called Trump and asked for a $25,000 campaign contribution. The Trump Foundation sent her campaign a check for that amount."
+        "explanation": "In 20 13, while her office was considering joining the suit against Trump University, Florida state attorney general Pam Bondi called Trump and asked for a $25,000 campaign contribution. The Trump Foundation sent her campaign a check for that amount."
     },
     "102": {
         "question": "True or False: Bondi's office joined the suit against Trump University after Bondi received a $25,000 campaign contribution from the Trump Foundation.",
@@ -955,7 +955,7 @@
         "explanation": "False. At best, Trump's use of foundation money to make a political contribution broke the law. He was fined $2,500 by the IRS just this year for the illegal contribution. At worst, he used his charitable foundation to save his own neck and prevent an investigation of a fraudulent operation that he created and oversaw."
     },
     "104": {
-        "question": "Hillary's first job out of law school was with the Children's Defense Fund. She showed that some parents weren't sending their children to school because their scools did not",
+        "question": "Hillary's first job out of law school was with the Children's Defense Fund. She showed that some parents weren't sending their children to school because their schools did not",
         "answers": {
         "A": "Exempt students from <say-as interpret-as=\"spell-out\">PE</say-as>",
         "B": "Serve special food",
@@ -990,7 +990,7 @@
         "explanation": "Too many Americans with disabilities end up having to live in separate facilities when they should have the opportunity to live at home and be in their communities. "
     },
     "108": {
-        "question": "As first lady, Hillary fought hard for more awareness and funding for autism, including supporting the bipartisan Children's Health Act passed in:",
+        "question": "As first lady, Hillary fought hard for more awareness and funding for autism, including supporting the bipartisan Children's Health Act passed in what year?",
         "answers": {
         "A": "2010",
         "B": "2000",
@@ -1069,11 +1069,6 @@
         "answer": "FALSE",
         "explanation": "Research has shown that supported employment helps people with mental illness avoid hospitalization, while also giving them the opportunity to earn money and contribute to society. The employment rate for adults with mental illness is below 20 percent, even though many of these adults want to work, and more than half could succeed with appropriate job supports."
     },
-    "118": {
-        "question": "True or false: Research has shown that supported employment has no impact on mental health.",
-        "answer": "FALSE",
-        "explanation": "Research has shown that supported employment helps people with mental illness avoid hospitalization, while also giving them the opportunity to earn money and contribute to society. The employment rate is below 20 percent, even though many of these adults want to work and more than 50% could succeed with appropriate job supports."
-    },
     "119": {
         "question": "What percentage of working Americans need a license just to do their jobs?",
         "answers": {
@@ -1082,7 +1077,7 @@
         "C": "More than 25%"
         },
         "answer": "C",
-        "explanation": "Over a quarter of working Americans need a license for their jobs, up from 5% in 1950. State and local licensing can help safeguard public health and safety. But unnecessary requirements and fees stand in the way of new business. Hillary Clinton plans to offer incentives to streamline unnecessary licensing and reduce costs."
+        "explanation": "Over a quarter of working Americans need a license for their jobs, up from 5% in 19 50. State and local licensing can help safeguard public health and safety. But unnecessary requirements and fees stand in the way of new business. Hillary Clinton plans to offer incentives to streamline unnecessary licensing and reduce costs."
     },
     "120": {
         "question": "How much more expensive is it to comply with federal taxes for small businesses than larger businesses, per employee?",
@@ -1125,14 +1120,14 @@
         "explanation": "Small businesses create nearly two-thirds of new American jobs, but they were hit hard by the Great Recession and still face obstacles to success. Hillary Clinton visited with small business owners across the country to better understand the barriers they face, and what smart public policy can do to help."
     },
     "124": {
-        "question": "According to Hillary's economic plan, what will every household in America have by 2020?",
+        "question": "According to Hillary's economic plan, what will every household in America have by 20 20?",
         "answers": {
         "A": "broadband internet",
         "B": "an automobile",
         "C": "solar panels"
         },
         "answer": "A",
-        "explanation": "Hillary Clinton's economic plan includes the biggest investment in American infrastructure in decades, including connecting every household to broadband by 2020; building a cleaner, more resilient energy grid; recommitting to scientific research that can create new industries; and helping small businesses get started."
+        "explanation": "Hillary Clinton's economic plan includes the biggest investment in American infrastructure in decades, including connecting every household to broadband by 20 20; building a cleaner, more resilient energy grid; recommitting to scientific research that can create new industries; and helping small businesses get started."
     },
     "125": {
         "question": "True or false: Hillary's economic plan will allow students and graduates with existing student loans to refinance at a lower rate.",
@@ -1275,7 +1270,7 @@
         "explanation": "As secretary of state, Hillary helped bring down barriers that stop women and girls from reaching their potential. She championed programs to advance women's economic participation, address gender-based violence, and elevate the status of women and girls around the world. She made women's rights central to our foreign policy."
     },
     "141": {
-        "question": "As a Unite States Senator, Hillary championed the Paycheck Fairness Act. What did this act intend to do?",
+        "question": "As a United States Senator, Hillary championed the Paycheck Fairness Act. What did this act intend to do?",
         "answers": {
         "A": "create new jobs",
         "B": "stop paper checks",
@@ -1359,11 +1354,6 @@
         "answer": "A",
         "explanation": "Naloxone is a rescue drug that stops opioid overdoses from becoming fatal. Hillary Clinton believes that naloxone must be in the basic toolkit for every first responder."
     },
-    "151": {
-        "question": "True or false: Hillary's plan will focus on prevention, treatment and recovery.",
-        "answer": "FALSE",
-        "explanation": "As president, Hillary will focus on prevention, treatment and recovery, criminal justice reform, prescribers, and first responders to end the addiction and substance use epidemic."
-    },
     "152": {
         "question": "Who can prescribe medications for the treatment of opioid addiction?",
         "answers": {
@@ -1409,7 +1399,7 @@
         "answers": {
         "A": "Of course not",
         "B": "Yes",
-        "C": "Only at guns shows"
+        "C": "Only at gun shows"
         },
         "answer": "B",
         "explanation": "Inexplicably, Republican lawmakers refuse to support a law that would prohibit suspected terrorists from legally buying a gun in the United States. Hillary will work to keep guns out of the hands of suspected terrorists and establish a \"lone wolf\" task force to identify and stop radicalized individuals."
@@ -1430,7 +1420,7 @@
         "explanation": "As president, Hillary Clinton will set a national standard for early voting. In an effort to reduce long lines and give more people with family or work obligations an opportunity to vote, the national standard for early voting will give voters at least 20 days to vote in the evenings or on weekends before election day."
     },
     "160": {
-        "question": "Which group of voters have become more disenfranchised since 2013?",
+        "question": "Which group of voters have become more disenfranchised since 20 13?",
         "answers": {
         "A": "Young voters",
         "B": "Senior voters",
