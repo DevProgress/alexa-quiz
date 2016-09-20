@@ -1,105 +1,60 @@
 {
     "1": {
-        "question": "What has Hillary done for Women's Rights?",
-        "answers": {
-        "A": "She stood up against sex trafficking",
-        "B": "Interceded with Saudi Arabia to stop child marriage",
-        "C": "Both"
-        },
-        "answer": "C",
-        "explanation": "She fought to make women's rights a priority in international relations. She led the fight for a UN Security Council resolution to combat sexual violence against women and children around the world that passed unanimously."
-    },
-    "2": {
-        "question": "True or false: Hillary advocated that the President launch the raid against bin Laden",
-        "answer": "TRUE",
-        "explanation": "This counterterrorism strategy focused on bad actors while staying true to our values and empowering moderate Muslims to take on extremism.  And she launched a multilateral counterterrorism forum to bring together key counties to partner against this global scourge.  "
-    },
-    "3": {
-        "question": "How many Americans does Alzheimer's affect?",
-        "answers": {
-        "A": "1.7 million",
-        "B": "5.4 million",
-        "C": "600,000"
-        },
-        "answer": "B",
-        "explanation": "It's estimated that in 2016 there are an estimated 5.4 million people living with Alzheimer's. Another person develops the disease roughly every 66 seconds."
-    },
-    "4": {
-        "question": "Up to how much does Alzheimer's cost the country annually?",
-        "answers": {
-        "A": "$500 million",
-        "B": "$200 billion",
-        "C": "$100 billion"
-        },
-        "answer": "B",
-        "explanation": "With a new diagnosis every minute, Alzheimer's is a looming public health disaster, and one that's costing us $200 billion annually. Hillary Clinton has a plan to prevent and effectively treat Alzheimer's by 2025-and make a cure possible."
-    },
-    "5": {
-        "question": "What can current Alzheimer's drugs accomplish?",
-        "answers": {
-        "A": "mild benefits",
-        "B": "lasting cure",
-        "C": "prevention"
-        },
-        "answer": "A",
-        "explanation": "there is no treatment that will either prevent or effectively treat this disease. Current drugs provide a very mild benefit-and only for a short time-while the Alzheimer's brain continues to go downhill. But ten years-and Hillary's ambitious plan-could make all the difference."
-    },
-    "6": {
         "question": "What percentage of Americans have student debt?",
         "answers": {
-        "A": "70%",
-        "B": "40%",
-        "C": "55%"
-        },
-        "answer": "A",
-        "explanation": "Today, roughly 70 percent of college graduates take out loans to finance their education. Across the country, Americans hold a staggering $1.2 trillion in student debt-the second highest source of consumer debt behind home mortgages. And that number continues to climb."
-    },
-    "7": {
-        "question": "What is the average amount of debt graduates currently have? ",
-        "answers": {
-        "A": "5,000",
-        "B": "15,000",
-        "C": "30,000"
+        "A": "40%",
+        "B": "55%",
+        "C": "70%"
         },
         "answer": "C",
+        "explanation": "Today, roughly 70 percent of college graduates take out loans to finance their education. Across the country, Americans hold a staggering $1.2 trillion in student debt, the second highest source of consumer debt behind home mortgages. And that number continues to climb."
+    },
+    "2": {
+        "question": "What is the average amount of debt graduates currently have?",
+        "answers": {
+        "A": "$5,000",
+        "B": "$30,000",
+        "C": "15,000"
+        },
+        "answer": "B",
         "explanation": "Indebted graduates carry an average balance of nearly $30,000. Student debt has surpassed credit card debt, car loan debt, and home equity lines of credit to be the second largest source of consumer debt."
     },
-    "8": {
+    "3": {
         "question": "True or false: Under Hillary's debt-free college plan, families with incomes up to $125,000 will pay no tuition at in-state public colleges and universities.",
         "answer": "TRUE",
         "explanation": "The plan will be phased in over five years, but families earning $85,000 or less will immediately be able to attend an in-state college or university without paying any tuition."
     },
-    "9": {
+    "4": {
         "question": "How will a 3-month moratorium on federal student loan payments help borrowers?",
         "answers": {
-        "A": "It will allow more time for borrowers to refinance their loans to save money.",
-        "B": "It won't be helpful at all.",
-        "C": "I don't know"
+        "A": "It won't be helpful at all.",
+        "B": "It will allow more time for borrowers to refinance their loans to save money.",
+        "C": "Neither"
         },
-        "answer": "A",
-        "explanation": "As president, Hillary will take executive action to give borrowers a 3-month moratorium on their federal student loan payments. During that time, the Department of Education will help borrowers refinance their loans to save money-whether by enrolling in an income-based repayment plan, consolidating their loans, or taking advantage of reduced monthly interest payments and fees."
+        "answer": "B",
+        "explanation": "As president, Hillary will take executive action to give borrowers a 3-month moratorium on their federal student loan payments. During that time, the Department of Education will help borrowers refinance their loans to save money, whether by enrolling in an income-based repayment plan, consolidating their loans, or taking advantage of reduced monthly interest payments and fees."
     },
-    "10": {
-        "question": "Because of mounting student debt -- what life milestones for young people are being held up?",
+    "5": {
+        "question": "What life milestones for young people are being held up because of mounting student debt?",
         "answers": {
-        "A": "Getting married ",
+        "A": "Getting married",
         "B": "Buying homes",
         "C": "Both"
         },
         "answer": "C",
-        "explanation": "And according to a 2013 study by the think tank Demos, college-educated households with student debt stand to lose $208,000 over a lifetime, mostly from a lack of retirement savings. Education should hold the key to a brighter future-not a lifetime of debilitating debt."
+        "explanation": "According to a 2013 study by the think tank Demos, college-educated households with student debt stand to lose $208,000 over a lifetime, mostly from a lack of retirement savings.  Education should hold the key to a brighter future-not a lifetime of debilitating debt."
     },
-    "11": {
+    "6": {
         "question": "Between 2000 and 2012, on average how much did the annual cost of child care increase?",
         "answers": {
-        "A": "No increase",
-        "B": "10%",
-        "C": "25%"
+        "A": "25%",
+        "B": "No increase",
+        "C": "10%"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "The cost of child care has been rising for decades. Despite wages remaining stagnant in the same time period, child care costs rose by nearly 25 percent between 2000 and 2012, putting an even bigger strain on families."
     },
-    "12": {
+    "7": {
         "question": "In how many states is the annual cost of infant child care higher than a year's in-state college tuition and fees at a public university?",
         "answers": {
         "A": "3",
@@ -109,7 +64,7 @@
         "answer": "C",
         "explanation": "In more than half of states, it would cost less per year to send a child to college than pay for the care of a baby. Many families in America are spending more than one third of their income on child care, especially those below the poverty level"
     },
-    "13": {
+    "8": {
         "question": "What percentage of african american college students are also parents?",
         "answers": {
         "A": "37",
@@ -119,7 +74,7 @@
         "answer": "A",
         "explanation": "22.5% of white students, 25% of hispanic students and 37% of african american college students are also parents. That's 4.8 million parents who face high child care costs on top of rising tuition costs."
     },
-    "14": {
+    "9": {
         "question": "How will Hillary's child care plan increase access to high quality, affordable child care?",
         "answers": {
         "A": "It will increase federal funding to bring down the cost of child care for low-income families.",
@@ -127,19 +82,19 @@
         "C": "both"
         },
         "answer": "C",
-        "explanation": "The plan will also provide tax relief to help lower costs for working families and double funding for the Early Head Start-Child Care partnership program. "
+        "explanation": "The plan will also provide tax relief to help lower costs for working families and double funding for the Early Head Start and Child Care partnership program."
     },
-    "15": {
-        "question": "Who said it? \"The parents I've met over the past few days and parents that I've met over the past many years may come from different backgrounds, they may earn different incomes ... but they're facing the same challenges ... It shouldn't be about politics",
+    "10": {
+        "question": "Who said \"The parents I've met over the past few days and parents that I've met over the past many years may come from different backgrounds, they may earn different incomes, but they're facing the same challenges. It shouldn't be about politics. It shoul",
         "answers": {
         "A": "Donald Trump",
-        "B": "",
-        "C": " "
+        "B": "Hillary Clinton",
+        "C": "Neither"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "Hillary Clinton has pledged to lead an effort that will ensure no family pays more than 10 percent of their income on quality child care. And that's a big deal, because many families in America are spending more than one third of their income on child care."
     },
-    "16": {
+    "11": {
         "question": "Where did Hillary grow up?",
         "answers": {
         "A": "Arkansas",
@@ -149,27 +104,27 @@
         "answer": "C",
         "explanation": "Hillary was born October 26, 1947 in Edgewater Hospital, Chicago."
     },
-    "17": {
+    "12": {
         "question": "Which famous speaker inspired Hillary's lifelong passion for social justice?",
         "answers": {
-        "A": "J. F. Kennedy",
-        "B": "Martin Luther King",
+        "A": "Martin Luther King",
+        "B": "John F. Kennedy",
         "C": "Barbara Jordan"
         },
-        "answer": "B",
-        "explanation": "On a trip to Chicago with her youth ministry, Hillary got to see Martin Luther King Jr. speak-this sparked her lifelong passion for social justice."
+        "answer": "A",
+        "explanation": "On a trip to Chicago with her youth ministry, Hillary got to see Martin Luther King Jr. speak. This sparked her lifelong passion for social justice."
     },
-    "18": {
+    "13": {
         "question": "In what year was Hillary first elected into the U.S. Senate?",
         "answers": {
         "A": "2001",
-        "B": "2002",
-        "C": "2000"
+        "B": "2000",
+        "C": "2002"
         },
-        "answer": "C",
-        "explanation": "After the terrorist attacks of September 11, 2001, Hillary pushed the Bush administration to secure $20 billion to rebuild New York and fought to provide health care for responders who were at Ground Zero. "
+        "answer": "B",
+        "explanation": "After the terrorist attacks of September 11, 2001, Hillary pushed the Bush administration to secure $20 billion to rebuild New York and fought to provide health care for responders who were at Ground Zero."
     },
-    "19": {
+    "14": {
         "question": "When Hillary enrolled in Yale Law School, how many women were in her graduating class?",
         "answers": {
         "A": "150",
@@ -179,67 +134,67 @@
         "answer": "C",
         "explanation": "She was also elected by her peers to be the first-ever student speaker at Wellesley's commencement ceremony."
     },
-    "20": {
-        "question": "In what city did Hillary famously state - \"human rights are women's rights, and women's rights are human rights once and for all\"",
+    "15": {
+        "question": "In what city did Hillary famously state \"human rights are women's rights, and women's rights are human rights once and for all\"?",
         "answers": {
-        "A": "Beijing",
-        "B": "Rome",
-        "C": "Salt Lake City"
+        "A": "Rome",
+        "B": "Salt Lake City",
+        "C": "Beijing"
         },
-        "answer": "A",
-        "explanation": "In 1995, Hillary led the U.S. delegation to Beijing to attend the U.N. Fourth World Conference on Women, despite being told by some officials not to go. She gave a groundbreaking speech, declaring that \"human rights are women's rights, and women's rights are human rights once and for all\"-inspiring women around the world."
+        "answer": "C",
+        "explanation": "In 1995, Hillary led the U.S. delegation to Beijing to attend the U.N. Fourth World Conference on Women, despite being told by some officials not to go. She gave a groundbreaking speech, declaring that \"human rights are women's rights, and women's rights are human rights once and for all\" and inspiring women around the world."
     },
-    "21": {
+    "16": {
         "question": "As part of Hillary's ambitious plan to address renewable energy, how many solar panels does she plan on install before the end of her first term?",
         "answers": {
         "A": "70 million",
-        "B": "5 billion",
-        "C": "Half a billion"
+        "B": "Half a billion",
+        "C": "5 billion"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "Hillary's ambitious plan is to have half a billion solar panels installed across America by the end of her first term and to generate enough renewable energy to power every home in America within a decade"
     },
-    "22": {
+    "17": {
         "question": "When did the League of Conservation Voters first endorse Hillary?",
         "answers": {
         "A": "January, 2016",
-        "B": "November, 2015",
-        "C": "August, 2016"
+        "B": "August, 2016",
+        "C": "November, 2015"
         },
-        "answer": "B",
-        "explanation": "Hillary's plan is to invest in energy infrastructure we need for that future. This is why the League of Conservation Voters (LCV Action Fund) endorsed Clinton in November-its earliest endorsement of a Presidential candidate in the history of the organization."
+        "answer": "C",
+        "explanation": "Hillary's plan is to invest in energy infrastructure we need for that future. This is why the League of Conservation Voters endorsed Clinton in November, its earliest endorsement of a Presidential candidate in the history of the organization."
     },
-    "23": {
+    "18": {
         "question": "Who did Hillary work with on legislation calling for the study and potential creation of a national heritage area surrounding Niagara Falls?",
         "answers": {
         "A": "Bernie Sanders",
-        "B": "Chuck Schumer",
-        "C": "Stephen J. Solarz"
-        },
-        "answer": "B",
-        "explanation": "Hillary worked with Chuck Schumer on legislation calling for the study and potential creation of a national heritage area surrounding Niagara Falls. Following the release of the study, the Niagara Falls National Heritage Area was established in 2008"
-    },
-    "24": {
-        "question": "Who said it? - Global warming is a \"hoax.\"",
-        "answers": {
-        "A": "Hillary Clinton",
-        "B": "No one. Who would ever say such a thing?",
-        "C": "Donald Trump"
+        "B": "Stephen J. Solarz",
+        "C": "Chuck Schumer"
         },
         "answer": "C",
-        "explanation": "While Clinton believes the U.S. must act to tackle climate change, Donald Trump and his Republican allies are burying their heads in the sand, denying climate change or sounding defeatist about our nation's capacity to address it."
+        "explanation": "Hillary worked with Chuck Schumer on legislation calling for the study and potential creation of a national heritage area surrounding Niagara Falls. Following the release of the study, the Niagara Falls National Heritage Area was established in 2008"
     },
-    "25": {
-        "question": "With whom did Secretary Clinton work with to achieve the key diplomatic breakthrough that yielded the first international climate agreement?",
+    "19": {
+        "question": "Who said Global warming is a hoax?",
         "answers": {
-        "A": "President Obama",
-        "B": "She did it alone",
-        "C": "Socks the cat"
+        "A": "Donald Trump",
+        "B": "Hillary Clinton",
+        "C": "No one. Who would ever say such a thing?"
         },
         "answer": "A",
-        "explanation": "The joint efforts by President Obama and Secretary Clinton allowed for major developing countries like China, India, and Brazil to commit to reduce their GHG pollution."
+        "explanation": "While Clinton believes the U.S. must act to tackle climate change, Donald Trump and his Republican allies are burying their heads in the sand, denying climate change or sounding defeatist about our nation's capacity to address it."
     },
-    "26": {
+    "20": {
+        "question": "With whom did Secretary Clinton work with to achieve the key diplomatic breakthrough that yielded the first international climate agreement?",
+        "answers": {
+        "A": "She did it alone",
+        "B": "Socks the cat",
+        "C": "President Obama"
+        },
+        "answer": "C",
+        "explanation": "The joint efforts by President Obama and Secretary Clinton allowed for major developing countries like China, India, and Brazil to commit to reduce their greenhouse gas pollution."
+    },
+    "21": {
         "question": "Which of the following is not part of Hillary's plan to build a stronger middle class?",
         "answers": {
         "A": "support unions",
@@ -249,37 +204,37 @@
         "answer": "B",
         "explanation": "Hillary is proposing middle-class tax breaks to help families cope with the rising cost of living, and she's announced new tax credits to help families caring for ill or aging family members. She'll pay for them by raising taxes on the wealthiest Americans and closing loopholes in our tax code."
     },
-    "27": {
+    "22": {
         "question": "At the current minimum wage, how much does someone working 40 hours a week make in a year?",
         "answers": {
         "A": "$20,400",
         "B": "$15,080",
-        "C": "$32,00"
+        "C": "$32,000"
         },
         "answer": "B",
-        "explanation": "At $7.25 per hour, the federal minimum wage isn't nearly enough to make ends meet. That's why Hillary wants to raise the federal minimum wage to $12 an hour-and why she supports city and state efforts to raise their own minimum wage even higher."
+        "explanation": "At $7.25 per hour, the federal minimum wage isn't nearly enough to make ends meet. That's why Hillary wants to raise the federal minimum wage to $12 an hour, and why she supports city and state efforts to raise their own minimum wage even higher."
     },
-    "28": {
+    "23": {
         "question": "What is the maximum percent of its income that Hillary wants a family to spend on childcare?",
         "answers": {
-        "A": "10%",
-        "B": "20%",
-        "C": "30%"
+        "A": "20%",
+        "B": "30%",
+        "C": "10%"
         },
-        "answer": "A",
+        "answer": "C",
         "explanation": "In many states, child care is more expensive than college tuition, putting families in an impossible position. Along with guaranteeing paid family leave, Hillary wants to make it so that no family has to spend more than 10 percent of its income on child care."
     },
-    "29": {
-        "question": "In 2015, what percentage of American households was classified as middle class?",
+    "24": {
+        "question": "In 2015, what percentage of American households were classified as middle class?",
         "answers": {
-        "A": "21%",
-        "B": "50%",
+        "A": "50%",
+        "B": "21%",
         "C": "29%"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "In 1971, 61% of American households were classified as middle class, with 14% classified as upper class and 25% as lower class. Income disparity has increased drastically in the four decades since. In 2015, 21% of households were upper class, 29% were lower class, and only 50% were middle class."
     },
-    "30": {
+    "25": {
         "question": "Which of the following is not part of Hillary's plan to create more middle-class jobs?",
         "answers": {
         "A": "fund clean energy",
@@ -287,69 +242,69 @@
         "C": "repair roads"
         },
         "answer": "B",
-        "explanation": "Hillary believes unions are critical to a strong economy-and key to a strong middle class. Her plan will repair America's infrastructure, creating good-paying, middle-class jobs. In addition, she has launched jobs to make the United States the world's clean energy superpower and create new jobs in areas like wind and solar."
+        "explanation": "Hillary believes unions are critical to a strong economy and key to a strong middle class. Her plan will repair America's infrastructure, creating good-paying, middle-class jobs. In addition, she has launched jobs to make the United States the world's clean energy superpower and create new jobs in areas like wind and solar."
     },
-    "31": {
+    "26": {
         "question": "How many jobs would Hillary's economic agenda create?",
         "answers": {
-        "A": "10.4 million jobs",
-        "B": "7.2 million jobs",
+        "A": "7.2 million jobs",
+        "B": "10.4 million jobs",
         "C": "4.3 million jobs"
         },
-        "answer": "A",
-        "explanation": "Mark Zandi-one of John McCain's former economic advisors-released a report on the impact of Hillary's economic proposals, and found that \"Secretary Clinton's economic policies when taken together will result in a stronger U.S. economy under almost any scenario\", and projected that her plan would create 10.4 million new jobs."
+        "answer": "B",
+        "explanation": "Mark Zandi, one of John McCain's former economic advisors, released a report on the impact of Hillary's economic proposals. It found that \"Secretary Clinton's economic policies when taken together will result in a stronger U.S. economy under almost any scenario\", and projected that her plan would create 10.4 million new jobs."
     },
-    "32": {
-        "question": "Whose agenda would be better for the economy - Hillary's or Trump's?",
+    "27": {
+        "question": "Whose agenda would be better for the economy: Hillary's or Trump's?",
         "answers": {
         "A": "Hillary's",
         "B": "Trump's",
-        "C": " "
+        "C": "about the same"
         },
         "answer": "A",
-        "explanation": "Zandi did a similar analysis of Trump's economic policies. He found that Trump's plan would have a real and lasting negative impact for our economy and the American people-including a \"lengthy recession\" and the loss of 3.5 million jobs."
+        "explanation": "Mark Zandi's analysis of Trump's economic policies found that Trump's plan would have a real and lasting negative impact for our economy and the American people, including a \"lengthy recession\" and the loss of 3.5 million jobs."
     },
-    "33": {
+    "28": {
         "question": "Who would benefit the most from Hillary's economic agenda?",
         "answers": {
         "A": "Wall Street",
-        "B": "The top 1%",
-        "C": "Low and middle-income households"
+        "B": "Low and middle-income households",
+        "C": "The top 1%"
         },
-        "answer": "C",
-        "explanation": "Zandi found that \"those who would benefit most from Secretary Clinton's economic proposals would be low- and middle-income households.\" "
+        "answer": "B",
+        "explanation": "A study by Mark Zandi found that \"those who would benefit most from Secretary Clinton's economic proposals would be low- and middle-income households.\""
     },
-    "34": {
+    "29": {
         "question": "Who would benefit the most from Trump's economic agenda?",
         "answers": {
         "A": "Low-income households",
-        "B": "The middle class",
-        "C": "The very top of the income distribution"
-        },
-        "answer": "C",
-        "explanation": "But under Trump's proposals, Zandi reported that the \"the bulk of the [tax] cuts would go to those at the very top of the income distribution, and the job losses resulting from his other policies would likely hit lower- and middle-income households the hardest."
-    },
-    "35": {
-        "question": "How did an analyst describe the economy that would be created under Trump's plan?",
-        "answers": {
-        "A": "Stronger and more robust",
-        "B": "More isolated and diminished",
-        "C": "More equitable"
+        "B": "The very top of the income distribution",
+        "C": "The middle class"
         },
         "answer": "B",
-        "explanation": "[Zandi] noted that Trump's plan would lead to an economy that was \"more isolated and diminished.'"
+        "explanation": "Mark Zandi reported that inder Trump's proposals, \"the bulk of the tax cuts would go to those at the very top of the income distribution, and the job losses resulting from his other policies would likely hit lower- and middle-income households the hardest.\""
     },
-    "36": {
+    "30": {
+        "question": "How did an analyst describe the economy that would be created under Trump's plan?",
+        "answers": {
+        "A": "More isolated and diminished",
+        "B": "Stronger and more robust",
+        "C": "More equitable"
+        },
+        "answer": "A",
+        "explanation": "A study by Mark Zandi noted that Trump's plan would lead to an economy that was \"more isolated and diminished.\""
+    },
+    "31": {
         "question": "The average CEO at some of America's biggest companies earns how much more than the median worker?",
         "answers": {
-        "A": "100",
-        "B": "5",
-        "C": "200"
+        "A": "200",
+        "B": "100",
+        "C": "5"
         },
-        "answer": "C",
-        "explanation": "Americans are working harder than ever-but while corporate profits are on the rise, paychecks have barely budged in the last two decades. Meanwhile, the average CEO at some of America's biggest companies earns more than 200 times more than the median worker. As president, Hillary Clinton will make it her mission to change that."
+        "answer": "A",
+        "explanation": "Americans are working harder than ever, but while corporate profits are on the rise, paychecks have barely budged in the last two decades. Meanwhile, the average CEO at some of America's biggest companies earns more than 200 times more than the median worker. As president, Hillary Clinton will make it her mission to change that."
     },
-    "37": {
+    "32": {
         "question": "Which company did Hillary name and shame for announcing it would outsource production to Mexico?",
         "answers": {
         "A": "Johnson Controls",
@@ -359,18 +314,18 @@
         "answer": "C",
         "explanation": "Hillary made an example of Nabisco, which took tax breaks from the state of Illinois and then announced it would outsource production to Mexico and lay off 600 Chicago workers."
     },
-    "38": {
+    "33": {
         "question": "True or false: Hillary will end the loopholes that reward companies for moving overseas.",
         "answer": "TRUE",
-        "explanation": "-and she'll make companies that export jobs give back the tax breaks they've received in America."
+        "explanation": "She'll make companies that export jobs give back the tax breaks they've received in America."
     },
-    "39": {
+    "34": {
         "question": "True or false: Hillary will reward companies that are doing right by their employees.",
         "answer": "TRUE",
         "explanation": "She will do this by providing tax incentives for businesses that offer high-quality training and share profits with their workers."
     },
-    "40": {
-        "question": "Hillary will hold companies accountable if they- ",
+    "35": {
+        "question": "Hillary will hold companies accountable if they do what?",
         "answers": {
         "A": "Pollute the environment",
         "B": "Exploit their customers",
@@ -379,17 +334,17 @@
         "answer": "C",
         "explanation": "She'll go to bat for workers, and go toe-to-toe with corporations on their behalf. And she won't hesitate to name names."
     },
-    "41": {
+    "36": {
         "question": "Which countries did Hillary stand up to on internet freedoms?",
         "answers": {
-        "A": "Sweden & France.",
-        "B": "Germany & Turkey.",
-        "C": "Russia & China."
+        "A": "Sweden and France.",
+        "B": "Russia and China.",
+        "C": "Germany and Turkey."
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "Hillary stood up to Russia, China, and Iran on internet freedom and fought for the \"freedom to connect\" around the world."
     },
-    "42": {
+    "37": {
         "question": "Where did Hillary build the toughest sanctions regime in history?",
         "answers": {
         "A": "Israel",
@@ -397,17 +352,62 @@
         "C": "Iran"
         },
         "answer": "C",
-        "explanation": "Hillary built the toughest sanctions regime in history on Iran, twisting arms in China, Russia, and dozens of other countries, to force Iran to the negotiating table. And when pressure started working, she sent her closest aides to explore a deal that would cut off Iran's path to a nuclear weapon."
+        "explanation": "Twisting arms in China, Russia, and dozens of other countries forced Iran to the negotiating table. When pressure started working, she sent her closest aides to explore a deal that would cut off Iran's path to a nuclear weapon."
+    },
+    "38": {
+        "question": "Which treaty did Hillary oversee to ensure the reduction of United States and Russian nuclear arsenals?",
+        "answers": {
+        "A": "<say-as interpret-as=\"spell-out\">UN</say-as> Arms Treaty",
+        "B": "New <say-as interpret-as=\"spell-out\">START</say-as> Treaty",
+        "C": "<say-as interpret-as=\"spell-out\">SORT</say-as> Treaty"
+        },
+        "answer": "C",
+        "explanation": "Hillary oversaw negotiation and worked to ensure ratification of the New <say-as interpret-as=\"spell-out\">START</say-as> treaty, which will make the world safer by reducing United States and Russian nuclear arsenals to their smallest size in 50 years."
+    },
+    "39": {
+        "question": "What has Hillary done for Women's Rights?",
+        "answers": {
+        "A": "She stood up against sex trafficking",
+        "B": "Interceded with Saudi Arabia to stop child marriage",
+        "C": "Both"
+        },
+        "answer": "C",
+        "explanation": "She fought to make women's rights a priority in international relations. She led the fight for a <say-as interpret-as=\"spell-out\">UN</say-as> Security Council resolution to combat sexual violence against women and children around the world that passed unanimously."
+    },
+    "40": {
+        "question": "True or false: Hillary advocated that the President launch the raid against bin Laden",
+        "answer": "TRUE",
+        "explanation": "This counterterrorism strategy focused on bad actors while staying true to our values and empowering moderate Muslims to take on extremism. She also launched a multilateral counter-terrorism forum to bring together key counties to partner against this global scourge. "
+    },
+    "41": {
+        "question": "How many Americans does Alzheimer's affect?",
+        "answers": {
+        "A": "1.7 million",
+        "B": "600,000",
+        "C": "5.4 million"
+        },
+        "answer": "C",
+        "explanation": "It's estimated that in 2016 there are an estimated 5.4 million people living with Alzheimer's. Another person develops the disease roughly every 66 seconds."
+    },
+    "42": {
+        "question": "Up to how much does Alzheimer's cost the country annually?",
+        "answers": {
+        "A": "$500 million",
+        "B": "$100 billion",
+        "C": "$200 billion"
+        },
+        "answer": "C",
+        "explanation": "With a new diagnosis every minute, Alzheimer's is a looming public health disaster, and one that's costing us $200 billion annually. Hillary Clinton has a plan to prevent and effectively treat Alzheimer's by 2025, and make a cure possible."
     },
     "43": {
-        "question": "Which treaty did Hillary oversee to ensure the reduction of U.S. and Russian nuclear arsenals?",
+        "question": "What can current Alzheimer's drugs accomplish?",
         "answers": {
-        "A": "SORT Treaty",
-        "B": "UN Arms Treaty",
-        "C": "New START Treaty"
+        "A": "mild benefits",
+        "B": "lasting cure",
+        "C": "prevention"
         },
         "answer": "A",
-        "explanation": "Hillary oversaw negotiation and worked to ensure ratification of the New START treaty, which will make the world safer by reducing U.S. and Russian nuclear arsenals to their smallest size in 50 years."
+        "explanation": "There is no treatment that will either prevent or effectively treat this disease. Current drugs provide a very mild benefit, and only for a short time, while the Alzheimer's brain continues to go downhill. But ten years, and Hillary's ambitious plan, could make all the difference."
     },
     "44": {
         "question": "What is the biggest hurdle to preventing and developing a cure for Alzheimer's?",
@@ -417,7 +417,7 @@
         "C": "lack of interest"
         },
         "answer": "B",
-        "explanation": "We've learned nearly everything we know about Alzheimer's in the past 15 years-particularly after researchers, created \"Alzheimer's in a dish,\" human nerve cells meant to replicate a human brain environment. Scientists have discovered new genes involved in Alzheimer's; what they lack is enough funding to prevent the disease."
+        "explanation": "We've learned nearly everything we know about Alzheimer's in the past 15 years, particularly after researchers, created \"Alzheimer's in a dish,\" human nerve cells meant to replicate a human brain environment. Scientists have discovered new genes involved in Alzheimer's. What they lack is enough funding to prevent the disease."
     },
     "45": {
         "question": "How much in Hillary pledging to invest in research annually for Alzheimer's treatment and prevention?",
@@ -427,7 +427,7 @@
         "C": "$500 million"
         },
         "answer": "A",
-        "explanation": "The missing part of the equation in developing new treatments for Alzheimer's is a major federal investment. That's why Hillary is pledging to invest $2 billion each year for a decade, to help find the elusive treatment and prevention plan-and maybe even a cure-that has evaded scientists."
+        "explanation": "The missing part of the equation in developing new treatments for Alzheimer's is a major federal investment. That's why Hillary is pledging to invest $2 billion each year for a decade, to help find the elusive treatment and prevention plan, and maybe even a cure, that has evaded scientists."
     },
     "46": {
         "question": "As a share of the economy, how has federal infrastructure investment changed in the last 35 years?",
@@ -447,7 +447,7 @@
         "C": "13,000"
         },
         "answer": "C",
-        "explanation": "The vast majority of those jobs are good-paying, middle-class jobs. Also, every dollar of infrastructure investment leads to an estimated $1.60 increase in GDP the following year and twice that over the subsequent 20 years."
+        "explanation": "The vast majority of those jobs are good-paying, middle-class jobs. Also, every dollar of infrastructure investment leads to an estimated $1.60 increase in <say-as interpret-as=\"spell-out\">GDP</say-as> the following year and twice that over the subsequent 20 years."
     },
     "48": {
         "question": "How many hours a year do rush-hour commuters waste in traffic each year?",
@@ -477,7 +477,7 @@
         "C": "20 percent"
         },
         "answer": "A",
-        "explanation": "Nearly one in four bridges requires significant repair and more than half of our highways are 45 years or older. Clinton will create transportation solutions that will meet the needs of Americans today and in the future and slash the \"pothole tax\" that they silently pay each and every day."
+        "explanation": "Nearly one in four bridges requires significant repair, and more than half of our highways are 45 years or older. Clinton will create transportation solutions that will meet the needs of Americans today and in the future and slash the \"pothole tax\" that they silently pay each and every day."
     },
     "51": {
         "question": "If a cargo train takes 48 hours to go from Los Angeles to Chicago, how long does the train take to get through Chicago?",
@@ -487,7 +487,7 @@
         "C": "2 hours"
         },
         "answer": "A",
-        "explanation": "Every year, U.S. businesses have to spend an extra $27 billion just in transportation costs because of congestion in our freight networks alone. Hillary is committed to initiating upgrades of at least the 25 most costly freight bottlenecks by the end of her first term."
+        "explanation": "Every year, <say-as interpret-as=\"spell-out\">US</say-as> businesses have to spend an extra $27 billion just in transportation costs because of congestion in our freight networks alone. Hillary is committed to initiating upgrades of at least the 25 most costly freight bottlenecks by the end of her first term."
     },
     "52": {
         "question": "How old is the newest major American airport?",
@@ -507,14 +507,14 @@
         "C": "10-Jan"
         },
         "answer": "A",
-        "explanation": "Our drinking water systems - parts of which are more than a century old - leak nearly 6 billion gallons every day, or roughly one-sixth of our daily water use. Clinton will work to create a bold agenda to revitalize our aging water infrastructure and make it more sustainable and energy efficient."
+        "explanation": "Our drinking water systems, parts of which are more than a century old, leak nearly 6 billion gallons every day, or roughly one-sixth of our daily water use. Clinton will work to create a bold agenda to revitalize our aging water infrastructure and make it more sustainable and energy efficient."
     },
     "54": {
         "question": "Clinton would use $25 billion to create what to help national infrastructure?",
         "answers": {
-        "A": "A bank",
-        "B": "A wall",
-        "C": "A hotel chain"
+        "A": "bank",
+        "B": "wall",
+        "C": "hotel chain"
         },
         "answer": "A",
         "explanation": "The bank will support investment for energy, water, broadband, transportation, and multi-modal infrastructure projects through providing loans, issuing \"Build America Bonds\", selecting projects based on merit, and provide a center of excellence."
@@ -537,10 +537,10 @@
         "C": "800"
         },
         "answer": "B",
-        "explanation": "Clinton will launch an initiative to restore and revitalize more than 3000 city parks within ten years."
+        "explanation": "Clinton will launch an initiative to restore and revitalize more than 3,000 city parks within ten years."
     },
     "57": {
-        "question": "How much growth in renewable energy generation on public lands will occur under Clinton's plan? ",
+        "question": "How much growth in renewable energy generation on public lands will occur under Clinton's plan?",
         "answers": {
         "A": "Ten-fold growth.",
         "B": "Three-fold growth",
@@ -560,7 +560,7 @@
         "explanation": "Clinton will expand access to public lands for hunting, fishing and recreation by making publicly accessible 50% of the public land that is currently inaccessible."
     },
     "59": {
-        "question": "Clinton also plans to do what with fossil fuels on public lands?",
+        "question": "What does Clinton plan to do with fossil fuels on public lands?",
         "answers": {
         "A": "Expand drilling in the Arctic and Atlantic",
         "B": "Decrease royalty rates",
@@ -570,54 +570,29 @@
         "explanation": "Clinton also opposes offshore oil and gas development in the Arctic and Atlantic. Clinton will reform onshore coal, oil, and gas leases to ensure taxpayers are getting a fair deal, raising royalty rates, which currently lag below the rates on state and private lands, and close loopholes"
     },
     "60": {
-        "question": "Revitalizing the coal industry is aligned with free-market trends. ",
-        "answers": {
-        "A": "Fact",
-        "B": "Fiction",
-        "C": " "
-        },
-        "answer": "B",
+        "question": "True or false: Revitalizing the coal industry is aligned with free-market trends.",
+        "answer": "FALSE",
         "explanation": "There has been a push for cleaner fuels and a rise of cheap natural gas which now rivals coal as a fuel for generating electricity. Because of this, restoring lost jobs in coal mining would essentially defy free-market forces."
     },
     "61": {
-        "question": "Economic analysts say that Hillary Clinton's plan would help create 10.4 million jobs.",
-        "answers": {
-        "A": "Fact",
-        "B": "Fiction",
-        "C": " "
-        },
-        "answer": "A",
-        "explanation": "Moody's Analytics estimates that if the Democratic presidential nominee's proposals are enacted, the economy would create 10.4 million jobs during her presidency -- 3.2 million more jobs than expected under current law. Her proposed tax changes would increase revenue by $1.1 trillion according to the Tax Policy Center."
+        "question": "True or false: Economic analysts say that Hillary Clinton's plan would help create 10.4 million jobs.",
+        "answer": "TRUE",
+        "explanation": "Moody's Analytics estimates that if the Democratic presidential nominee's proposals are enacted, the economy would create 10.4 million jobs during her presidency, which is 3.2 million more jobs than expected under current law. Her proposed tax changes would increase revenue by $1.1 trillion according to the Tax Policy Center."
     },
     "62": {
-        "question": "Trump has repeatedly chosen to hire American workers over foreign workers.",
-        "answers": {
-        "A": "Fiction",
-        "B": "Fact",
-        "C": " "
-        },
-        "answer": "A",
-        "explanation": "Since 2010 nearly 300 US residents have applied or been referred for jobs as waiters, waitresses, cooks, and housekeepers at Trump International Hotel in Washington but according to federal records, only 17 have been hired. Trump has also pursued more than 500 visas for foreign workers at Mar-a-Lago."
+        "question": "True or false: Trump has repeatedly chosen to hire American workers over foreign workers.",
+        "answer": "FALSE",
+        "explanation": "Since 2010, nearly 300 <say-as interpret-as=\"spell-out\">US</say-as> residents have applied or been referred for jobs as waiters, waitresses, cooks, and housekeepers at Trump International Hotel in Washington but, according to federal records, only 17 have been hired. Trump has also pursued more than 500 visas for foreign workers at Mar-a-Lago."
     },
     "63": {
-        "question": "There are now 94.3 million Americans outside the labor force.",
-        "answers": {
-        "A": "Fiction",
-        "B": "Fact",
-        "C": " "
-        },
-        "answer": "A",
+        "question": "True or false: There are now 94.3 million Americans outside the labor force.",
+        "answer": "FALSE",
         "explanation": "Donald Trump repeatedly quotes this statistic but it ignores the fact that a portion of that number includes people that are students or retired."
     },
     "64": {
-        "question": "Roughly 2 out of every 1000 people who die owe any estate tax.",
-        "answers": {
-        "A": "Fiction",
-        "B": "Fact",
-        "C": " "
-        },
-        "answer": "B",
-        "explanation": "Only the wealthiest estates pay estate tax because it is levied only on the portion of an estate's value that exceeds a specific exemption level -- $5.43 million per person, $10.86 million per couple in 2015."
+        "question": "True or false: Roughly 2 out of every 1000 people who die owe any estate tax.",
+        "answer": "TRUE",
+        "explanation": "Only the wealthiest estates pay estate tax because it is levied only on the portion of an estate's value that exceeds a specific exemption level. In 2015, that was $5.43 million per person or $10.86 million per couple."
     },
     "65": {
         "question": "Does Trump believe that Obama is an American Citizen?",
@@ -632,21 +607,21 @@
     "66": {
         "question": "Do white supremacists benefit from Trump's campaign?",
         "answers": {
-        "A": "Not really.",
-        "B": "Absolutely.",
+        "A": "Absolutely.",
+        "B": "Not really.",
         "C": "No, they hate him."
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "White supremacists like Trump's candidacy so much that they are using it as a recruiting tool. Trump also does not disavow the support of white supremacists."
     },
     "67": {
         "question": "Does Trump discriminate against tenants of color?",
         "answers": {
-        "A": "He doesn't care.",
-        "B": "He tries to help.",
-        "C": "Yes."
+        "A": "Yes.",
+        "B": "He doesn't care.",
+        "C": "He tries to help."
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "Trump employees were instructed to steer prospective tenants of color away from properties with mostly white tenants. They had specific codes to mark applications with to indicate that they were minorities. The Trumps settled the case, only to be sued again for the same thing three years later."
     },
     "68": {
@@ -680,23 +655,23 @@
         "explanation": "More than half of America's millennials say they want to start a business-but barriers like student debt and a lack of access to credit are holding young people back. Hillary is committed to breaking down barriers and leveling the playing field for entrepreneurs and innovators who are launching their own start-ups."
     },
     "71": {
-        "question": "Under Clinton's plan, what will businesses be able to do to earn a $1500 tax credit?",
+        "question": "Under Clinton's plan, what will businesses be able to do to earn a $1,500 tax credit?",
         "answers": {
-        "A": "Create apprenticeships",
-        "B": "Provide free wifi",
+        "A": "Provide free wifi",
+        "B": "Create apprenticeships",
         "C": "Outsource jobs"
         },
-        "answer": "A",
-        "explanation": "Businesses that create apprenticeships - robust, coherent, and accessible on-the-job training programs- will receive a new $1,500 tax credit."
+        "answer": "B",
+        "explanation": "Businesses that create apprenticeships, robust, coherent, and accessible on-the-job training programs, will receive a new $1,500 tax credit."
     },
     "72": {
         "question": "How many children live in homes without high-speed internet?",
         "answers": {
         "A": "200,000",
-        "B": "5 million",
-        "C": "20 million"
+        "B": "20 million",
+        "C": "5 million"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "70% of teachers assign homework that requires the internet, but 5 million kids live in homes without access to high-speed internet. Hillary will invest in infrastructure that connects all Americans to the internet."
     },
     "73": {
@@ -707,10 +682,10 @@
         "C": "Building the Keystone XL pipeline"
         },
         "answer": "A",
-        "explanation": "We will set bold national goals like installing half a billion solar panels by the end of Hillary's first term and generating enough clean renewable energy to power every home in America within a decade."
+        "explanation": "Hillary will set bold national goals like installing half a billion solar panels by the end of her first term, and generating enough clean renewable energy to power every home in America within a decade."
     },
     "74": {
-        "question": "How many jobs would Hillary's policies create (+) or lose (-) in Florida?",
+        "question": "How many jobs would Hillary's policies create or lose in Florida?",
         "answers": {
         "A": "200,000",
         "B": "650,000",
@@ -720,17 +695,17 @@
         "explanation": "According to analysis by independent economist Mark Zandi (a former advisor to John McCain), the U.S. economy would create more than 10 million jobs under Hillary's policies in her first term alone. The same economist found that Donald Trump's policies would lead to a loss of nearly 3.5 million jobs."
     },
     "75": {
-        "question": "How many jobs would Trump's policies create (+) or lose (-) in Florida?",
+        "question": "How many jobs would Trump's policies create or lose in Florida?",
         "answers": {
-        "A": "650,000",
-        "B": "400,000",
-        "C": "-200,000"
+        "A": "-200,000",
+        "B": "650,000",
+        "C": "400,000"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "According to analysis by independent economist Mark Zandi (a former advisor to John McCain), the U.S. economy would create more than 10 million jobs under Hillary's policies in her first term alone. The same economist found that Donald Trump's policies would lead to a loss of nearly 3.5 million jobs."
     },
     "76": {
-        "question": "How many jobs would Hillary's policies create (+) or lose (-) in Ohio?",
+        "question": "How many jobs would Hillary's policies create or lose in Ohio?",
         "answers": {
         "A": "375,000",
         "B": "-100,000",
@@ -743,30 +718,30 @@
         "question": "How many jobs would Trump's policies create (+) or lose (-) in Ohio?",
         "answers": {
         "A": "50,000",
-        "B": "30,000",
-        "C": "-120,000"
+        "B": "-120,000",
+        "C": "30,000"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "According to analysis by independent economist Mark Zandi (a former advisor to John McCain), the U.S. economy would create more than 10 million jobs under Hillary's policies in her first term alone. The same economist found that Donald Trump's policies would lead to a loss of nearly 3.5 million jobs."
     },
     "78": {
         "question": "How many jobs would Hillary's policies create in Pennsylvania?",
         "answers": {
-        "A": "100,000",
-        "B": "400,000",
+        "A": "400,000",
+        "B": "100,000",
         "C": "-200,000"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "According to analysis by independent economist Mark Zandi (a former advisor to John McCain), the U.S. economy would create more than 10 million jobs under Hillary's policies in her first term alone. The same economist found that Donald Trump's policies would lead to a loss of nearly 3.5 million jobs."
     },
     "79": {
         "question": "As Secretary of State, with whom did Hillary Clinton negotiate a cease fire?",
         "answers": {
-        "A": "Israel and Hamas",
-        "B": "Syria and Jordan",
+        "A": "Syria and Jordan",
+        "B": "Israel and Hamas",
         "C": "Ukraine and Russia"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "In 2012, Hillary Clinton averted war in Gaza by negotiating a cease fire between the Israelis and Palestinians. Hillary cut short her trip to an East Asian summit to meet with Israeli Prime Minister Benjamin Netanyahu, President of the Palestinian National Authority Mahmoud Abbas, and Egyptian President Mohamed Morsi."
     },
     "80": {
@@ -782,21 +757,21 @@
     "81": {
         "question": "How many different countries did Hillary Clinton visit as Secretary of State?",
         "answers": {
-        "A": "17",
-        "B": "112",
+        "A": "112",
+        "B": "17",
         "C": "43"
         },
-        "answer": "B",
-        "explanation": "As Secretary of State, Hillary Clinton visited 112 different countries, more than any other Secretary of State in history. And she logged an astounding 956,733 miles doing it! No stamina, huh?"
+        "answer": "A",
+        "explanation": "As Secretary of State, Hillary Clinton visited 112 different countries, more than any other Secretary of State in history. And she logged an astounding 956,733 miles doing it!"
     },
     "82": {
         "question": "What did Mexican President Enrique Pena Nieto do after meeting with Donald Trump?",
         "answers": {
         "A": "Say he was \"odd\"",
-        "B": "Call him a liar",
-        "C": "Laugh at his hair"
+        "B": "Laugh at his hair",
+        "C": "Call him a liar"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "Donald Trump says that he and Mexican President Enrique Pena Nieto discussed the wall that Trump wants to build along our southern border. Trump claims that they did not discuss who would pay for the wall. Pena Nieto said that they did discuss it, and that he made it very clear to Trump that Mexico would never pay for his wall."
     },
     "83": {
@@ -810,29 +785,29 @@
         "explanation": "Hillary Clinton understands that as a global leader, it is America's responsibility to stand up for the less fortunate and to lead by example. That is why she made it her mission to champion the rights of women and girls around the world, fought against sex trafficking, and stood up to countries that pushed anti-gay legislation."
     },
     "84": {
-        "question": "In 1832, unions from which region of the country began the fight to regulate child labor?",
+        "question": "In 18 32, unions from which region of the country began the fight to regulate child labor?",
         "answers": {
         "A": "New England",
         "B": "the West Coast",
         "C": "the Central Plains"
         },
         "answer": "A",
-        "explanation": "For most of our nation's history, there were no child labor laws. Children worked long hours, often with dangerous machinery. In 1832, New England unions began the fight to regulate child labor. Other unions joined what would become a century-long movement, resulting in the first federal child labor regulation in 1938."
+        "explanation": "For most of our nation's history, there were no child labor laws. Children worked long hours, often with dangerous machinery. In 18 32, New England unions began the fight to regulate child labor. Other unions joined what would become a century-long movement, resulting in the first federal child labor regulation in 19 38."
     },
     "85": {
-        "question": "True or false: Union wages have no effect on non-Union wages. ",
+        "question": "True or false: Union wages have no effect on non-Union wages.",
         "answer": "FALSE",
-        "explanation": "Research shows that the presence of unions leads to higher wages for all Americans. So when unions negotiate higher wages, they set the standard for non-union workers too."
+        "explanation": "Research shows that the presence of unions leads to higher wages for all Americans. When unions negotiate higher wages, they set the standard for non-union workers too."
     },
     "86": {
         "question": "Unions were a major factor in the passing of which act?",
         "answers": {
         "A": "Prohibition",
-        "B": "Social Security",
-        "C": "Women's Suffrage"
+        "B": "Women's Suffrage",
+        "C": "Social Security"
         },
-        "answer": "B",
-        "explanation": "Union advocacy was instrumental in ensuring the passage of the Social Security Act of 1935. This act created Social Security and also unemployment insurance for both union and non-union workers. These benefits help keep Americans out of poverty, and without unions, the might never have come into existence."
+        "answer": "C",
+        "explanation": "Union advocacy was instrumental in ensuring the passage of the Social Security Act of 19 35. This act created Social Security and also unemployment insurance for both union and non-union workers. These benefits help keep Americans out of poverty, and without unions, the might never have come into existence."
     },
     "87": {
         "question": "Many of us take it for granted now, but without unions, there would be no:",
@@ -845,24 +820,24 @@
         "explanation": "Union strikes in the early part of the 20th century led to the passage of the Fair Labor Standards Act of 1938. This act created protections such as the 40-hour work week, which in turn, made weekends off the norm."
     },
     "88": {
-        "question": "Union advocacy in the 1930s and 1940s paved the way for: ",
+        "question": "Union advocacy in the 1930s and 1940s paved the way for:",
         "answers": {
         "A": "Marriage Equality",
-        "B": "Immigration Reform",
-        "C": "The ACA"
+        "B": "The <say-as interpret-as=\"spell-out\">ACA</say-as>",
+        "C": "Immigration Reform"
         },
-        "answer": "C",
+        "answer": "B",
         "explanation": "In the 1930s and 1940s, labor unions fought for employer-provided health care coverage. This fight paved the way for more expansive laws, like the Affordable Care Act, which provides health care coverage to millions of Americans."
     },
     "89": {
         "question": "Secretary Clinton has been fighting for veterans throughout her career, in which role did she first fight for post-traumatic stress services?",
         "answers": {
-        "A": "First Lady of USA",
-        "B": "Secretary of State",
-        "C": "US Senator"
+        "A": "First Lady",
+        "B": "United States Senator",
+        "C": "Secretary of State"
         },
-        "answer": "C",
-        "explanation": "As Senator on the Armed Services Committee, Hillary Clinton fought to establish new services for military members and veterans suffering from post-traumatic stress (PTS) and traumatic brain injuries (TBI). She regularly worked across the aisle to expand veterans' access to health benefits."
+        "answer": "B",
+        "explanation": "As Senator on the Armed Services Committee, Hillary Clinton fought to establish new services for military members and veterans suffering from post-traumatic stress and traumatic brain injuries. She regularly worked across the aisle to expand veterans' access to health benefits."
     },
     "90": {
         "question": "True or False: As President, Hillary Clinton will support the needs and talents of all who have served as Soldiers, Sailors, and Marines.",
@@ -870,14 +845,14 @@
         "explanation": "As President, Secretary Clinton will continue to support the needs and talents of all who have served and who serve us still, whether Soldiers, Sailors, Marines, Airmen and Coast Guardsmen, including active duty, reserve, and National Guard, and every race, creed, gender, and sexual orientation."
     },
     "91": {
-        "question": "Which item is NOT part of Hillary Clinton's comprehensive plan for veteran's programs?",
+        "question": "Which item is nor part of Hillary Clinton's comprehensive plan for veteran's programs?",
         "answers": {
-        "A": "Privatize the VA",
+        "A": "Privatize the <say-as interpret-as=\"spell-out\">VA</say-as>",
         "B": "Modernize benefits",
         "C": "Map skills to jobs"
         },
         "answer": "A",
-        "explanation": "Secretary Clinton will oppose the privatization of the VA system, which would undermine our veterans' ability to get the unique care that only the VA can provide while leaving them vulnerable to a health care market poorly suited to their needs."
+        "explanation": "Secretary Clinton will oppose the privatization of the <say-as interpret-as=\"spell-out\">VA</say-as> system, which would undermine our veterans' ability to get the unique care that only the <say-as interpret-as=\"spell-out\">VA</say-as> can provide while leaving them vulnerable to a health care market poorly suited to their needs."
     },
     "92": {
         "question": "Which medical condition is considered a toxic wound of war?",
@@ -895,7 +870,7 @@
         "explanation": "Increasing access to child care both on- and off-base, including options for drop-in services, part-time child care, and the provision of extended-hours care, especially at Child Development Centers is part of Hillary Clinton's plan to care for military families."
     },
     "94": {
-        "question": "How many programs/initiatives make up the Clinton Foundation",
+        "question": "How many programs and initiatives make up the Clinton Foundation?",
         "answers": {
         "A": "3",
         "B": "5",
@@ -908,31 +883,31 @@
         "question": "What percentage of Clinton Foundation funds go to charity?",
         "answers": {
         "A": "13%",
-        "B": "87%",
-        "C": "38%"
+        "B": "38%",
+        "C": "87%"
         },
-        "answer": "B",
-        "explanation": "An independent watchdog organization, Charity Watch, recently analyzed the Clinton Foundation and determined that 87% of the funds donated to the foundation went to charity. The group gave the Clinton Foundation an A rating!"
+        "answer": "C",
+        "explanation": "An independent watchdog organization, Charity Watch, recently analyzed the Clinton Foundation and determined that 87% of the funds donated to the foundation went to charity. The group gave the Clinton Foundation an <say-as interpret-as=\"spell-out\">A</say-as> rating!"
     },
     "96": {
-        "question": "What percentage of HIV/AIDS patients worldwide have access to treatment thanks to the Clinton Foundation?",
+        "question": "What percentage of HIV AIDS patients worldwide have access to treatment thanks to the Clinton Foundation?",
         "answers": {
         "A": "17%",
         "B": "33%",
         "C": "66%"
         },
         "answer": "C",
-        "explanation": "As a result of the efforts of the Clinton Health Access Initiative (formerly known as the Clinton HIV/AIDS Initiative), two thirds of all people living with HIV/AIDS throughout the world have access to life-saving treatment."
+        "explanation": "As a result of the efforts of the Clinton Health Access Initiativef, two thirds of all people living with HIV AIDS throughout the world have access to life-saving treatment."
     },
     "97": {
         "question": "How many people have been positively impacted by the Clinton Global Initiative?",
         "answers": {
-        "A": "5.2 million",
-        "B": "430 million",
+        "A": "430 million",
+        "B": "5.2 million",
         "C": "73 million"
         },
-        "answer": "B",
-        "explanation": "The Clinton Global Initiative, part of the Clinton Foundation, brings together global leaders  and encourages them to take on the world's problems. In the first 11 years of the initiative's existence, members have positively impacted 430 million people in more than 180 different countries."
+        "answer": "A",
+        "explanation": "The Clinton Global Initiative, part of the Clinton Foundation, brings together global leaders and encourages them to take on the world's problems. In the first 11 years of the initiative's existence, members have positively impacted 430 million people in more than 180 different countries."
     },
     "98": {
         "question": "How much money has Donald Trump donated to the Clinton Foundation?",
@@ -947,22 +922,22 @@
     "99": {
         "question": "True or False: The Trump Foundation is entirely funded by Donald Trump.",
         "answer": "FALSE",
-        "explanation": "The Trump Foundation's funding is largely provided by others, its top donors are Vince and Linda McMahon of World Wrestling Entertainment. Trump didn't contribute a single check to his foundation from 2009 through 2014 (the most recent public tax filing) but he does decide where funding goes."
+        "explanation": "The Trump Foundation's funding is largely provided by others. Its top donors are Vince and Linda McMahon of World Wrestling Entertainment. Trump didn't contribute a single check to his foundation from 2009 through 2014, but he does decide where funding goes."
     },
     "100": {
         "question": "In 2013, the office of Florida state attorney general, Pam Bondi, said it was considering joining the suit against:",
         "answers": {
         "A": "Trump Foundation",
-        "B": "Trump University",
-        "C": "Mar-a-Lago"
+        "B": "Mar-a-Lago",
+        "C": "Trump University"
         },
-        "answer": "B",
+        "answer": "C",
         "explanation": "The Florida attorney general's office received complaints from 20 people claiming they had been defrauded by Trump University and its affiliates. Bondi's office said it was considering joining a lawsuit that the attorney general of New York had already filed."
     },
     "101": {
         "question": "Around the time Florida was considering joining the suit against Trump University, The Trump Foundation sent a $25,000 check to:",
         "answers": {
-        "A": "Florida AG office",
+        "A": "Florida Attorney General's office",
         "B": "Bondi's campaign",
         "C": "Trump University"
         },
@@ -970,184 +945,184 @@
         "explanation": "In 2013, while her office was considering joining the suit against Trump University, Florida state attorney general Pam Bondi called Trump and asked for a $25,000 campaign contribution. The Trump Foundation sent her campaign a check for that amount."
     },
     "102": {
-        "question": "True or False: Bondi's office joined the suit against Trump University after Bondi received a $25000 campaign contribution from the Trump Foundation.",
+        "question": "True or False: Bondi's office joined the suit against Trump University after Bondi received a $25,000 campaign contribution from the Trump Foundation.",
         "answer": "FALSE",
         "explanation": "False, the Florida state attorney general's office, headed by Bondi, decided not to take any action against Trump University after her campaign received a contribution from Trump Foundation."
     },
     "103": {
         "question": "True or False: There was nothing wrong with the Trump Foundation contributing to a political campaign.",
         "answer": "FALSE",
-        "explanation": "False, at best Trump's use of foundation money to make a political contribution broke the law (he was fined $2,500 by the IRS just this year for the illegal contribution).  At worst, he used his charitable foundation to save his own neck and prevent an investigation of a fraudulent operation that he created and oversaw."
+        "explanation": "False. At best, Trump's use of foundation money to make a political contribution broke the law. He was fined $2,500 by the IRS just this year for the illegal contribution. At worst, he used his charitable foundation to save his own neck and prevent an investigation of a fraudulent operation that he created and oversaw."
     },
     "104": {
-        "question": "Hillary's first job out of law school was the Children's Defense Fund. She  showed parents weren't sending their children to school because they didn't",
+        "question": "Hillary's first job out of law school was with the Children's Defense Fund. She showed that some parents weren't sending their children to school because their scools did not",
         "answers": {
-        "A": "Exempt from PE ",
-        "B": "Accommodate disabilities",
-        "C": "Serve special food"
+        "A": "Exempt students from <say-as interpret-as=\"spell-out\">PE</say-as>",
+        "B": "Serve special food",
+        "C": "Accommodate disabilities"
         },
-        "answer": "B",
-        "explanation": "The evidence she gathered was presented to Congress, and it helped build  the case for the passage of the law that ensures all children with disabilities  have access to school."
+        "answer": "C",
+        "explanation": "The evidence she gathered was presented to Congress, and it helped build the case for the passage of the law that ensures all children with disabilities have access to school."
     },
     "105": {
-        "question": "True or false: As secretary of state, Hillary worked to build support for the US to join  the United Nations Convention on the Rights of Persons with Disabilities.",
+        "question": "True or false: As secretary of state, Hillary worked to build support for the <say-as interpret-as=\"spell-out\">US</say-as> to join the United Nations Convention on the Rights of Persons with Disabilities.",
         "answer": "TRUE",
-        "explanation": "Despite a broad, bipartisan coalition, the Republican-controlled Senate  blocked its passage."
+        "explanation": "Despite a broad, bipartisan coalition, the Republican-controlled Senate blocked its passage."
     },
     "106": {
-        "question": "Hillary understands that caring for aging relatives or family members  with chronic illnesses or disabilities can be a burden. She is proposing:  ",
+        "question": "Hillary understands that caring for aging relatives or family members with chronic illnesses or disabilities can be a burden. What is she is proposing? ",
         "answers": {
-        "A": "Provide tax relief",
-        "B": "Free help",
-        "C": "Create new agency"
+        "A": "Free help",
+        "B": "Provide tax relief",
+        "C": "Create a new agency"
         },
-        "answer": "A",
-        "explanation": "This would help millions of families as she works to fulfill the promise  of the Americans with Disabilities Act.  "
+        "answer": "B",
+        "explanation": "This would help millions of families as she works to fulfill the promise of the Americans with Disabilities Act. "
     },
     "107": {
-        "question": "Hillary recognizes there is much work to do, including improving housing  opportunities. Hillary would work to give them the opportunity to live:  ",
+        "question": "Hillary will work to give seniors with disabilities the opportunity to live where? ",
         "answers": {
-        "A": "At home",
-        "B": "In facilities",
+        "A": "In facilities",
+        "B": "At home",
         "C": "In free housing"
         },
-        "answer": "A",
-        "explanation": "Too many Americans with disabilities end up having to live in separate  facilities when they should have the opportunity to live at home and be in  their communities.  "
+        "answer": "B",
+        "explanation": "Too many Americans with disabilities end up having to live in separate facilities when they should have the opportunity to live at home and be in their communities. "
     },
     "108": {
-        "question": "As first lady, she fought hard for more awareness and funding for  autism, including supporting the bipartisan Children's Health Act passed in: ",
+        "question": "As first lady, Hillary fought hard for more awareness and funding for autism, including supporting the bipartisan Children's Health Act passed in:",
         "answers": {
-        "A": "2000",
-        "B": "2010",
+        "A": "2010",
+        "B": "2000",
         "C": "1990"
         },
-        "answer": "A",
-        "explanation": "As part of her long record of advocating for children and families  affected by autism, the bipartisan Children's Health Act of 2000 had a special  focus on autism research."
+        "answer": "B",
+        "explanation": "As part of her long record of advocating for children and families affected by autism, the bipartisan Children's Health Act of 2000 had a special focus on autism research."
     },
     "109": {
         "question": "Which of the following would be included in the autism initiative?",
         "answers": {
         "A": "Treatment services",
-        "B": "Both of the above ",
-        "C": "Screening outreach"
+        "B": "Screening outreach",
+        "C": "Both"
         },
-        "answer": "C",
-        "explanation": "Improving support for children and adults on the autism spectrum and  their families can vastly improve their lives and open the door to more  sustainable costs for Medicaid and other public programs as services are  delivered using integrated, community-based approaches."
+        "answer": "B",
+        "explanation": "Improving support for children and adults on the autism spectrum and their families can vastly improve their lives and open the door to more sustainable costs for Medicaid and other public programs as services are delivered using integrated, community-based approaches."
     },
     "110": {
-        "question": "True or false: Hillary plans on improving access to autism services in the ACA  marketplace and through private health insurance.",
+        "question": "True or false: Hillary plans to improve access to autism services in the <say-as interpret-as=\"spell-out\">ACA</say-as> marketplace and through private health insurance.",
         "answer": "TRUE",
-        "explanation": "More  than 30 states have now defined \"habilitative services\" to include autism  services. In addition, states have the authority to require that private  insurance plans in the state cover autism services.  Clinton will work with states to encourage all  states to include autism services."
+        "explanation": "More than 30 states have now defined \"habilitative services\" to include autism services. In addition, states have the authority to require that private insurance plans in the state cover autism services. Clinton will work with states to encourage all states to include autism services."
     },
     "111": {
-        "question": "In the Senate Hillary introduced the bipartisan Expanding the Promise  for Individuals with Autism Act (EPIAA) to add intervention support in:",
+        "question": "In the Senate Hillary introduced the bipartisan Expanding the Promise for Individuals with Autism Act to add intervention support in what year?",
         "answers": {
-        "A": "2007",
-        "B": "2001",
+        "A": "2001",
+        "B": "2007",
         "C": "2011"
         },
-        "answer": "A",
-        "explanation": "EPIA Act of 2007 was to expand access to interventions and support for  Americans with autism. Hillary also cosponsored legislation in 2006 that  authorized hundreds of millions of dollars in new spending on autism-related  programs, including research, education, early detection, and intervention."
+        "answer": "B",
+        "explanation": "The <say-as interpret-as=\"spell-out\">EPIA</say-as> Act of 2007 was to expand access to interventions and support for Americans with autism. Hillary also co-sponsored legislation in 2006 that authorized hundreds of millions of dollars in new spending on autism-related programs, including research, education, early detection, and intervention."
     },
     "112": {
-        "question": "True or false: An important part of what Hillary is proposing is to invest in more  research to deepen our understanding of autism.",
+        "question": "True or false: Hillary is proposing that we invest in more research to deepen our understanding of autism.",
         "answer": "TRUE",
-        "explanation": "As  president, Hillary will significantly increase funding for autism-related  research and call for the first-ever nationwide study of the prevalence of  adult autism. No comprehensive study of the prevalence and  needs of autism in adults has been conducted in the United States."
+        "explanation": "As president, Hillary will significantly increase funding for autism-related research and call for the first-ever nationwide study of the prevalence of adult autism. No comprehensive study of the prevalence and needs of autism in adults has been conducted in the United States."
     },
     "113": {
         "question": "Which item is on Hillary's mental health agenda?",
         "answers": {
-        "A": "Let states decide",
-        "B": "Invest in research",
-        "C": "Ask NRA to monitor"
+        "A": "Invest in research",
+        "B": "Let states decide",
+        "C": "Ask <say-as interpret-as=\"spell-out\">NRA</say-as> to monitor"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "As part of a broad new investment in scientific research, Hillary Clinton will provide new federal funding for research into brain development and human behavior, promote research partnerships across sectors, and ensure data is widely shared."
     },
     "114": {
         "question": "How many American children are coping with mental health problems?",
         "answers": {
-        "A": "150,000",
-        "B": "17 million",
+        "A": "17 million",
+        "B": "150,000",
         "C": "5.8 million"
         },
-        "answer": "B",
-        "explanation": "More than 40 million adults in America-nearly 1 in 5-and 17 million children are coping with a mental health problem. Too many individuals are being left to deal with these issues on their own with complicating life circumstances like drug and alcohol addiction, homelessness, incarceration, or chronic health conditions."
+        "answer": "A",
+        "explanation": "More than 40 million adults in America, nearly 1 in 5, plus 17 million children are coping with a mental health problem. Too many individuals are being left to deal with these issues on their own, with complicating life circumstances like drug and alcohol addiction, homelessness, incarceration, or chronic health conditions."
     },
     "115": {
-        "question": "True or False: increasing housing opportunities is part of the mental health issue.",
+        "question": "True or false: Increasing housing opportunities is part of the mental health issue.",
         "answer": "TRUE",
-        "explanation": "Hillary Clinton will launch a joint initiative among HUD, HHS, and USDA to expand community-based housing opportunities for individuals with mental illness and other disabilities."
+        "explanation": "Hillary Clinton will launch a joint initiative among <say-as interpret-as=\"spell-out\">HUD</say-as>, <say-as interpret-as=\"spell-out\">HHS</say-as>, and <say-as interpret-as=\"spell-out\">USDA</say-as> to expand community-based housing opportunities for individuals with mental illness and other disabilities."
     },
     "116": {
         "question": "Which health care obstacle is addressed by a mental health parity law?",
         "answers": {
-        "A": "Term limits",
-        "B": "Treatment limits",
+        "A": "Treatment limits",
+        "B": "Term limits",
         "C": "Parental consent"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Throughout her career, Hillary Clinton has strongly supported the enactment of mental health parity laws, which have helped ensure that millions of Americans with mental illness do not lose access to the services that they need because of financial restrictions or arbitrary treatment limits."
     },
     "117": {
-        "question": "True or False: Research has shown that supported employment has no impact on mental health.",
+        "question": "True or false: Research has shown that supported employment has no impact on mental health.",
         "answer": "FALSE",
-        "explanation": "Research has shown that supported employment helps people with mental illness avoid hospitalization, while also giving them the opportunity to earn money and contribute to society. The employment rate is below 20 percent, even though many of these adults want to work and more than 50% could succeed with appropriate job supports."
+        "explanation": "Research has shown that supported employment helps people with mental illness avoid hospitalization, while also giving them the opportunity to earn money and contribute to society. The employment rate for adults with mental illness is below 20 percent, even though many of these adults want to work, and more than half could succeed with appropriate job supports."
     },
     "118": {
-        "question": "True or False: Research has shown that supported employment has no impact on mental health.",
+        "question": "True or false: Research has shown that supported employment has no impact on mental health.",
         "answer": "FALSE",
         "explanation": "Research has shown that supported employment helps people with mental illness avoid hospitalization, while also giving them the opportunity to earn money and contribute to society. The employment rate is below 20 percent, even though many of these adults want to work and more than 50% could succeed with appropriate job supports."
     },
     "119": {
         "question": "What percentage of working Americans need a license just to do their jobs?",
         "answers": {
-        "A": "More than 25%",
-        "B": "10% or less",
-        "C": "Between 10 and 25%"
+        "A": "10% or less",
+        "B": "Between 10 and 25%",
+        "C": "More than 25%"
         },
-        "answer": "A",
-        "explanation": "Over a quarter of working Americans need a license for their jobs - up from 5% in 1950. State and local licensing can help safeguard public health and safety. But unnecessary requirements and fees stand in the way of new business. Hillary Clinton's plan offers incentives to streamline unnecessary licensing and reduce costs."
+        "answer": "C",
+        "explanation": "Over a quarter of working Americans need a license for their jobs, up from 5% in 1950. State and local licensing can help safeguard public health and safety. But unnecessary requirements and fees stand in the way of new business. Hillary Clinton plans to offer incentives to streamline unnecessary licensing and reduce costs."
     },
     "120": {
         "question": "How much more expensive is it to comply with federal taxes for small businesses than larger businesses, per employee?",
         "answers": {
-        "A": "Twice as costly",
-        "B": "20 times as costly",
+        "A": "20 times as costly",
+        "B": "Twice as costly",
         "C": "10 times as costly"
         },
-        "answer": "B",
-        "explanation": "The smallest businesses spend an average of 150 hours and $1100 per employee to comply with federal taxes, 20 times higher than for larger businesses.  Hillary will work to help small business by creating a new standard deduction, simplifying accounting rules, and quadrupling the start-up tax deduction for small businesses."
+        "answer": "A",
+        "explanation": "The smallest businesses spend an average of 150 hours and $1100 per employee to comply with federal taxes, 20 times higher than for larger businesses. Hillary will work to help small business by creating a new standard deduction, simplifying accounting rules, and quadrupling the start-up tax deduction for small businesses."
     },
     "121": {
         "question": "What percent of American small businesses would benefit from the simplified tax and accounting rules Clinton proposes?",
         "answers": {
-        "A": "99%",
-        "B": "Almost 75%",
+        "A": "Almost 75%",
+        "B": "99%",
         "C": "50%"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Hillary Clinton's proposals include \"checkbook accounting\" for businesses with under $1 million in gross receipts. She will also simplify accounting and tax filing and offer tax relief for small businesses with under $25 million in gross receipts. Altogether, Hillary Clinton's proposals will benefit 99% of businesses in America."
     },
     "122": {
-        "question": "Between 1995 and 2012, what happened to the percent of total bank loans that were small business loans?",
+        "question": "Between 19 95 and 20 12, what happened to the percent of total bank loans that were small business loans?",
         "answers": {
         "A": "Stayed the same",
         "B": "Decreased",
         "C": "Increased"
         },
         "answer": "B",
-        "explanation": "Small business loans comprised just 29 percent of total bank loans in 2012, as compared with 51 percent in 1995. Insufficient access to capital is one of the primary problems cited by small business owners. Hillary Clinton will fight to expand small businesses' access to capital."
+        "explanation": "Small business loans comprised just 29 percent of total bank loans in 20 12, as compared with 51 percent in 19 95. Insufficient access to capital is one of the primary problems cited by small business owners. Hillary Clinton will fight to expand small businesses' access to capital."
     },
     "123": {
-        "question": "Fill in the blank: Small businesses create nearly ___ of all new American jobs",
+        "question": "What percentage of all new American jobs are created by small businesses?",
         "answers": {
-        "A": "One-third",
-        "B": "Two-thirds",
+        "A": "Nearly one-third",
+        "B": "Nearly two-thirds",
         "C": "One half"
         },
         "answer": "B",
-        "explanation": "Small businesses create nearly two-thirds of new American jobs. But they were hit hard by the Great Recession and still face obstacles to success. Hillary Clinton visited with small business owners across the country to better understand the barriers they face and what smart public policy can do to break those barriers down."
+        "explanation": "Small businesses create nearly two-thirds of new American jobs, but they were hit hard by the Great Recession and still face obstacles to success. Hillary Clinton visited with small business owners across the country to better understand the barriers they face, and what smart public policy can do to help."
     },
     "124": {
         "question": "According to Hillary's economic plan, what will every household in America have by 2020?",
@@ -1157,10 +1132,10 @@
         "C": "solar panels"
         },
         "answer": "A",
-        "explanation": "Hillary Clinton's economic plan includes the biggest investment in American infrastructure in decades-including connecting every household to broadband by 2020; building a cleaner, more resilient energy grid; recommitting to scientific research that can create new industries; and helping small businesses get started."
+        "explanation": "Hillary Clinton's economic plan includes the biggest investment in American infrastructure in decades, including connecting every household to broadband by 2020; building a cleaner, more resilient energy grid; recommitting to scientific research that can create new industries; and helping small businesses get started."
     },
     "125": {
-        "question": "True or false: Hillary's plan will allow students and graduates with existing student loans to refinance at a lower rate.",
+        "question": "True or false: Hillary's economic plan will allow students and graduates with existing student loans to refinance at a lower rate.",
         "answer": "TRUE",
         "explanation": "In addition to enabling students to attend public colleges and universities without incurring debt, Hillary Clinton's economic plan also allows those already saddled with student loans to refinance those loans at lower rates."
     },
@@ -1168,24 +1143,24 @@
         "question": "Would Hillary's economic plan penalize companies that send jobs overseas?",
         "answers": {
         "A": "No",
-        "B": "Only sometimes",
-        "C": "Yes"
+        "B": "Yes",
+        "C": "Only sometimes"
         },
-        "answer": "C",
-        "explanation": "Hillary Clinton's economic plan will penalize companies that send American jobs to other countries by making them give back the tax breaks they've received in the U.S. Additionally, Hillary's plan will combat wage theft, enforce overtime laws, help unions bargain collectively, and strengthen regulations on Wall Street."
+        "answer": "B",
+        "explanation": "Hillary Clinton's economic plan will penalize companies that send American jobs to other countries by making them give back the tax breaks they've received in the <say-as interpret-as=\"spell-out\">US</say-as>. Additionally, Hillary's plan will combat wage theft, enforce overtime laws, help unions bargain collectively, and strengthen regulations on Wall Street."
     },
     "127": {
         "question": "Who will see a tax increase under Hillary's economic plan?",
         "answers": {
-        "A": "Everybody",
-        "B": "Multimillionaires",
+        "A": "Multimillionaires",
+        "B": "Everybody",
         "C": "The Middle Class"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Hillary Clinton's economic plan strives to ensure that Wall Street, corporations, and the super-rich pay their fair share of taxes. Her plan will put a stop to the loopholes and breaks in our tax code, and ask multimillionaires to pay a little more. These changes will help fund investments without adding to the national debt."
     },
     "128": {
-        "question": "Under Hillary's plan, what is the maximum percentage of household income that should be spent on child care?",
+        "question": "Under Hillary's economic plan, what is the maximum percentage of household income that should be spent on child care?",
         "answers": {
         "A": "20%",
         "B": "10%",
@@ -1195,9 +1170,9 @@
         "explanation": "Hillary Clinton's economic plan will set a goal to ensure that families spend no more than 10% of their income on child care. Hillary will also work to expand social security, fight for family-friendly workplace policies like paid leave, and provide tax relief to ease the cost of health care, prescription drugs, and housing."
     },
     "129": {
-        "question": "True or False: Accessible health care and education are often out of reach in rural America.",
+        "question": "True or false: Accessible health care and education are often out of reach in rural America.",
         "answer": "TRUE",
-        "explanation": "Too many rural communities aren't reaping the rewards of our nation's economic success-despite their critical role in our economy. Unemployment and poverty rates present a real challenge to these communities while accessible health care and education are too often out of reach."
+        "explanation": "Too many rural communities aren't reaping the rewards of our nation's economic success, despite their critical role in our economy. Unemployment and poverty rates present a real challenge to these communities while accessible health care and education are too often out of reach."
     },
     "130": {
         "question": "What sector powers the rural economy?",
@@ -1207,7 +1182,7 @@
         "C": "Government"
         },
         "answer": "B",
-        "explanation": "Small and medium sized businesses power the rural economy but many are being held back by inadequate infrastructure, poor access to credit and capital, and insufficient incentives to invest. To unleash the potential of America's rural businesses, farms, and ranches - and create jobs and grow wages for working Americans"
+        "explanation": "Small and medium sized businesses power the rural economy, but many are being held back by inadequate infrastructure, poor access to credit and capital, and insufficient incentives to invest."
     },
     "131": {
         "question": "What percentage of rural Americans bank at community banks?",
@@ -1217,133 +1192,133 @@
         "C": "35"
         },
         "answer": "A",
-        "explanation": "Community banks are vital to our rural businesses-a National Federation of Independent Businesses survey found that more than 70 percent of rural respondents identified their primary financial institution as a local bank, compared to 49 percent of urban respondents."
+        "explanation": "Community banks are vital to our rural businesses. A National Federation of Independent Businesses survey found that more than 70 percent of rural respondents identified their primary financial institution as a local bank, compared to 49 percent of urban respondents."
     },
     "132": {
-        "question": "What regional food system initiative did Hillary Clinton initiate as a US Senator?",
+        "question": "What regional food system initiative did Hillary Clinton initiate as a United States Senator?",
         "answers": {
         "A": "Organic for All",
         "B": "Eat at Home",
         "C": "Farm to Fork"
         },
         "answer": "C",
-        "explanation": "Hillary Clinton believes in building a strong local and regional food system by doubling funding for the Farmers Market Promotion Program and the Local Food Promotion Program to expand food hubs, and farmers markets. Her focus on this issue stems from the \"Farm-to-Fork\" initiative she promoted in New York as Senator."
+        "explanation": "Hillary Clinton believes in building a strong local and regional food system by doubling funding for the Farmers Market Promotion Program and the Local Food Promotion Program to expand food hubs, and farmers markets. Her focus on this issue stems from the \"Farm-to-Fork\" initiative she promoted as a New York Senator."
     },
     "133": {
-        "question": "True or False: Cities are not eligible to participate in Clinton's Clean Energy Challenge.",
+        "question": "True or false: Cities are not eligible to participate in Clinton's Clean Energy Challenge.",
         "answer": "FALSE",
         "explanation": "Hillary Clinton's Clean Energy Challenge to give states, cities, and rural communities ready to lead on clean energy the tools, resources, and flexibility they need to succeed. The goals of the challenge are to increase the use of solar panels and other renewable energy sources in homes across America."
     },
     "134": {
         "question": "True or false: The last Democrat endorsed by the Dallas Morning News was Franklin Delano Roosevelt",
         "answer": "TRUE",
-        "explanation": "In 1940, the Dallas Morning News endorsed FDR for President of the United States. Since then, the newspaper has endorsed only Republicans - that's 19 election cycles! This year, the Dallas Morning News has broken with their tradition and endorsed Hillary Clinton for President!"
+        "explanation": "In 1940, the Dallas Morning News endorsed Franklin Delano Roosevelt for President of the United States. Since then, the newspaper has endorsed only Republicans; that's 19 election cycles! This year, the Dallas Morning News has broken with their tradition and endorsed Hillary Clinton for President!"
     },
     "135": {
-        "question": "As a Senator, what percentage of Hillary's bills had GOP co-sponsors?",
+        "question": "As a Senator, what percentage of Hillary's bills had Republican co-sponsors?",
         "answers": {
         "A": "0%",
         "B": "66%",
         "C": "15%"
         },
         "answer": "B",
-        "explanation": "As a United States Senator from New York, two-thirds of the bills Hillary Clinton sponsored had Republican co-sponsors, and managed to find common ground with GOP conservatives."
+        "explanation": "As a United States Senator from New York, two-thirds of the bills Hillary Clinton sponsored had Republican co-sponsors, and managed to find common ground with conservatives."
     },
     "136": {
-        "question": "What did the Dallas Morning News call conspiracy theorists that refuse to believe that Hillary has been fully exonerated time after time?",
+        "question": "What did the Dallas Morning News call conspiracy theorists who refuse to believe that Hillary has been fully exonerated time after time?",
         "answers": {
         "A": "well-reasoned men",
-        "B": "sycophants",
-        "C": "political hyenas"
+        "B": "political hyenas",
+        "C": "sycophants"
         },
-        "answer": "C",
-        "explanation": "Regarding the Republican conspiracy theorists, the Dallas Morning News had this to say: \"Treason? Murder? Her being cleared of crimes by investigation after investigation has no effect on these political hyenas; they refuse to see anything but conspiracies and cover-ups.\""
+        "answer": "B",
+        "explanation": "The Dallas Morning News had this to say about Republican conspiracy theorists: \"Treason? Murder? Her being cleared of crimes by investigation after investigation has no effect on these political hyenas; they refuse to see anything but conspiracies and cover-ups.\""
     },
     "137": {
-        "question": "According to the endorsement, how many Republican foreign policy experts support Hillary?",
+        "question": "According to the Dallas Morning News, how many Republican foreign policy experts support Hillary?",
         "answers": {
         "A": "none at all",
         "B": "hundreds",
         "C": "a couple"
         },
         "answer": "B",
-        "explanation": "According to the Dallas Morning News, Hillary: \"helped make tough calls on the Middle East and the complex struggle against radical Islamic terrorism. It's no accident that hundreds of Republican foreign policy hands back Clinton. She also has the support of dozens of top advisers from previous Republican administrations...\""
+        "explanation": "According to the Dallas Morning News, Hillary: \"helped make tough calls on the Middle East and the complex struggle against radical Islamic terrorism. It's no accident that hundreds of Republican foreign policy hands back Clinton. She also has the support of dozens of top advisers from previous Republican administrations.\""
     },
     "138": {
         "question": "What did the Dallas Morning News say about Donald Trump?",
         "answers": {
-        "A": "he's a tough guy",
-        "B": "he's insane",
-        "C": "he plays on fear"
-        },
-        "answer": "C",
-        "explanation": "The Dallas Morning News said Trump: \"plays on fear-exploiting base instincts of xenophobia, racism and misogyny-to bring out the worst in all of us, rather than the best.\" They said his flip-flops \"reveal an astounding absence of preparedness.\" And his insults and tweets show \"a dangerous lack of judgement and impulse control.\""
-    },
-    "139": {
-        "question": "In 1995, why did some people not want Hillary to declare that \"human rights are women's rights, and women's rights are human rights?\"",
-        "answers": {
-        "A": "too polarizing",
-        "B": "poor \"optics\"",
-        "C": "bad timing"
+        "A": "he plays on fear",
+        "B": "he's a tough guy",
+        "C": "he's insane"
         },
         "answer": "A",
-        "explanation": "As First Lady, Hillary spoke at the 1995 UN Fourth World Conference on Women in Bejing. Some people were concerned that the topic of rights for women and girls was too \"polarizing.\" Hillary ignored the naysayers and famously declared: \"human rights are women's rights and women's rights are human rights, once and for all!\""
+        "explanation": "The Dallas Morning News said Trump: \"plays on fear, exploiting base instincts of xenophobia, racism and misogyny, to bring out the worst in all of us, rather than the best.\" They said his flip-flops \"reveal an astounding absence of preparedness.\" And his insults and tweets show \"a dangerous lack of judgement and impulse control.\""
+    },
+    "139": {
+        "question": "In 19 95, why did some people not want Hillary to declare that \"human rights are women's rights, and women's rights are human rights?\"",
+        "answers": {
+        "A": "poor \"optics\"",
+        "B": "bad timing",
+        "C": "too polarizing"
+        },
+        "answer": "C",
+        "explanation": "As First Lady, Hillary spoke at the 19 95 <say-as interpret-as=\"spell-out\">UN</say-as> Fourth World Conference on Women in Bejing. Some people were concerned that the topic of rights for women and girls was too \"polarizing.\" Hillary ignored the naysayers and famously declared: \"human rights are women's rights and women's rights are human rights, once and for all!\""
     },
     "140": {
         "question": "Complete this sentence: Hillary Clinton said: \"I am a proud lifelong fighter for women's issues, because I firmly believe what's good for women is \"",
         "answers": {
-        "A": "good for America.",
-        "B": "good for girls.",
+        "A": "good for girls.",
+        "B": "good for America.",
         "C": "good for men, too."
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "As secretary of state, Hillary helped bring down barriers that stop women and girls from reaching their potential. She championed programs to advance women's economic participation, address gender-based violence, and elevate the status of women and girls around the world. She made women's rights central to our foreign policy."
     },
     "141": {
-        "question": "As a U.S. Senator, Hillary championed the Paycheck Fairness Act. What did this act intend to do? ",
+        "question": "As a Unite States Senator, Hillary championed the Paycheck Fairness Act. What did this act intend to do?",
         "answers": {
-        "A": "limit the pay gap",
-        "B": "create new jobs",
-        "C": "stop paper checks"
+        "A": "create new jobs",
+        "B": "stop paper checks",
+        "C": "limit the pay gap"
         },
-        "answer": "A",
-        "explanation": "As a U.S. Senator from New York, Hillary championed the Paycheck Fairness Act, co-sponsored the Lilly Ledbetter Fair Pay Act, and fought for legislation to guarantee paid sick leave and paid parental leave for all federal employees. "
+        "answer": "C",
+        "explanation": "As a Unites States Senator from New York, Hillary championed the Paycheck Fairness Act, co-sponsored the Lilly Ledbetter Fair Pay Act, and fought for legislation to guarantee paid sick leave and paid parental leave for all federal employees."
     },
     "142": {
-        "question": "True or False: As Secretary of State, Hillary created the first ever ambassador-at-large for global women's issues.",
+        "question": "True or false: As Secretary of State, Hillary created the first ever ambassador-at-large for global women's issues.",
         "answer": "TRUE",
-        "explanation": "Hillary created the ambassador-at-large for global women's issues to ensure that women's issues are always at the cornerstone of our country's foreign policy. Now a permanent position in the State Department, the ambassador-at-large ensures that women's issues are fully considered when forming and conducting U.S. foreign policy."
+        "explanation": "Hillary created the ambassador-at-large for global women's issues to ensure that women's issues are always at the cornerstone of our country's foreign policy. Now a permanent position in the State Department, the ambassador-at-large ensures that women's issues are fully considered when forming and conducting Unites States foreign policy."
     },
     "143": {
         "question": "In 2009, where did Hillary unveil a plan to fight sexual violence in combat zones?",
         "answers": {
-        "A": "the Congo",
-        "B": "Iraq",
+        "A": "Iraq",
+        "B": "the Congo",
         "C": "Syria"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "In 2009, Hillary became the first secretary of state to travel to the war zone in the Congo. There, she unveiled a plan to fight sexual violence in conflict zones. Hillary ensured that the doctors supplied rape victims with video cameras to document violence and trained Congolese police to fight back against rapists."
     },
     "144": {
-        "question": "True or False: Less than one in five high school students have ever taken a computer science course?",
+        "question": "True or false: Fewer than one in five high school students have ever taken a computer science course",
         "answer": "TRUE",
         "explanation": "Hillary's plan is provide every student in America an opportunity to learn Computer Science. She will engage the private sector and non-profits to train up to 50,000 computer science teachers in the next decade."
     },
     "145": {
         "question": "Which of the following technology areas can America invest in to continue leadership in innovation?",
         "answers": {
-        "A": "Green energy",
-        "B": "3G wireless",
-        "C": "A wall for Mexico"
+        "A": "<say-as interpret-as=\"spell-out\">3G</say-as> wireless",
+        "B": "A wall for Mexico",
+        "C": "Green energy"
         },
-        "answer": "A",
-        "explanation": "Hillary believes our investments in high performance computing, green energy, machine learning, and 5G wireless will create opportunities for economic growth here at home. "
+        "answer": "C",
+        "explanation": "Hillary believes our investments in high performance computing, green energy, machine learning, and <say-as interpret-as=\"spell-out\">5G</say-as> wireless will create opportunities for economic growth here at home."
     },
     "146": {
         "question": "Which of the following positions will Hillary create to reduce Federal regulatory barriers?",
         "answers": {
         "A": "Innovation Advisor",
-        "B": "USA Synergy Expert",
+        "B": "<say-as interpret-as=\"spell-out\">USA</say-as> Synergy Expert",
         "C": "Red Tape Czar"
         },
         "answer": "A",
@@ -1357,105 +1332,105 @@
         "C": "10"
         },
         "answer": "A",
-        "explanation": "$90 billion but the American taxpayer doesn't get $90 billion in value. Hillary will make it easier for the federal government to find, try, and buy innovative technology and break large federal IT projects into smaller pieces."
+        "explanation": "$90 billion. But the American taxpayer doesn't get $90 billion in value. Hillary will make it easier for the federal government to find, try, and buy innovative technology and break large federal <say-as interpret-as=\"spell-out\">IT</say-as> projects into smaller pieces."
     },
     "148": {
         "question": "Which of the following is not important to strengthening America's position in technology leadership?",
         "answers": {
-        "A": "High-tech exports",
-        "B": "Forced deportation",
+        "A": "Forced deportation",
+        "B": "High-tech exports",
         "C": "Free flow of data"
         },
-        "answer": "B",
-        "explanation": "Hillary believes that the government has an obligation to protect the open internet. She will advance Export Control Reform, pursue policies to protect U.S. trade secrets and IP, and resist calls for forced tech transfer or localization of data."
+        "answer": "A",
+        "explanation": "Hillary believes that the government has an obligation to protect the open internet. She will advance Export Control Reform, pursue policies to protect United States trade secrets and intellectual property, and resist calls for forced tech transfer or localization of data."
     },
     "149": {
-        "question": "True or False: addiction and substance abuse issues only impact low income communities.",
+        "question": "True or false: Addiction and substance abuse issues only impact low income communities.",
         "answer": "FALSE",
         "explanation": "Addiction and substance use disorders touch the lives of people in big cities and small towns, across every income level. That's why Hillary Clinton plans to launch a $7.5 billion fund to support new federal-state partnerships that empower local leaders to implement programs that work for their communities."
     },
     "150": {
         "question": "What is Naloxone?",
         "answers": {
-        "A": "Trump's new yacht",
-        "B": "Opioid rescue drug",
+        "A": "Opioid rescue drug",
+        "B": "Trump's new yacht",
         "C": "A space probe"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Naloxone is a rescue drug that stops opioid overdoses from becoming fatal. Hillary Clinton believes that naloxone must be in the basic toolkit for every first responder."
     },
     "151": {
-        "question": "True or False: Hillary's plan will focus on prevention, treatment and recovery.",
+        "question": "True or false: Hillary's plan will focus on prevention, treatment and recovery.",
         "answer": "FALSE",
         "explanation": "As president, Hillary will focus on prevention, treatment and recovery, criminal justice reform, prescribers, and first responders to end the addiction and substance use epidemic."
     },
     "152": {
         "question": "Who can prescribe medications for the treatment of opioid addiction?",
         "answers": {
-        "A": "Nurse practitioner",
-        "B": "Physician",
+        "A": "Physician",
+        "B": "Nurse practitioner",
         "C": "Both"
         },
-        "answer": "B",
+        "answer": "A",
         "explanation": "Federal regulations currently prevent nurse practitioners and physician assistants from prescribing medications for the treatment of opioid addiction, and impose tight caps on how many patients a qualifying physician can treat each year with medication assisted treatment. Hillary Clinton will fight to enhance access to treatment."
     },
     "153": {
-        "question": "True or False: treatment over incarceration for nonviolent federal drug offenders creates significant savings to the federal criminal justice system.",
+        "question": "True or false: Treatment over incarceration for non-violent federal drug offenders creates significant savings to the federal criminal justice system.",
         "answer": "TRUE",
         "explanation": "Hillary Clinton's plan to combat addiction includes prioritizing treatment over incarceration for nonviolent and low-level federal drug offenders, and using the significant savings to the federal criminal justice system to fight to reform, more broadly, the criminal justice system and end mass incarceration."
     },
     "154": {
         "question": "Which two groups are instrumental in Hillary's plan to fight ISIS?",
         "answers": {
-        "A": "Russia and China",
-        "B": "Iran and Hamas",
-        "C": "Arabs and Kurds"
+        "A": "Arabs and Kurds",
+        "B": "Russia and China",
+        "C": "Iran and Hamas"
         },
-        "answer": "C",
+        "answer": "A",
         "explanation": "Hillary understands that to defeat ISIS, they must be taken out of their strongholds in Iraq and Syria: \"We've got to do it with air power, we've got to do it with much more support for the Arabs and the Kurds who will fight on the ground against ISIS. We've got to squeeze them by continuing to support the Iraqi military.\""
     },
     "155": {
-        "question": "Complete this sentence: \"Hillary Clinton's plan to dismantle the ISIS global terrorism network calls for a(n) \"",
+        "question": "Complete this sentence: \"Hillary Clinton's plan to dismantle the ISIS global terrorism network calls for\"",
         "answers": {
-        "A": "intelligence surge",
-        "B": "covert operation",
-        "C": "influx of funds"
+        "A": "an intelligence surge",
+        "B": "a covert operation",
+        "C": "an influx of funds"
         },
         "answer": "A",
-        "explanation": "Hillary Clinton stated: \"\"We've got to have an intelligence surge, and we've got to get a lot more cooperation out of Europe, out of the Middle East.\" Hillary knows that we need to work with our allies to dismantle the global network that supplies money, arms, propaganda, and fighters to the terrorists. "
+        "explanation": "Hillary Clinton stated: \"\"We've got to have an intelligence surge, and we've got to get a lot more cooperation out of Europe, out of the Middle East.\" Hillary knows that we need to work with our allies to dismantle the global network that supplies money, arms, propaganda, and fighters to the terrorists."
     },
     "156": {
-        "question": "True or False: Hillary's counterterrorism plan will take the fight to ISIS online.",
+        "question": "True or false: Hillary's counter-terrorism plan will take the fight to ISIS online.",
         "answer": "TRUE",
         "explanation": "Hillary Clinton's plan to defeat ISIS includes working with Silicon Valley to shut down terrorist propaganda online and wage online battles with extremists to discredit their ideology, expose their lies, and counter their appeals to potential recruits in the West and around the world."
     },
     "157": {
         "question": "Can people on the terrorist watchlist legally buy a gun in the United States?",
         "answers": {
-        "A": "Yes",
-        "B": "Of course not",
+        "A": "Of course not",
+        "B": "Yes",
         "C": "Only at guns shows"
         },
-        "answer": "A",
+        "answer": "B",
         "explanation": "Inexplicably, Republican lawmakers refuse to support a law that would prohibit suspected terrorists from legally buying a gun in the United States. Hillary will work to keep guns out of the hands of suspected terrorists and establish a \"lone wolf\" task force to identify and stop radicalized individuals."
     },
     "158": {
-        "question": "So, what is Donald Trump's plan to defeat ISIS?",
+        "question": "What is Donald Trump's plan to defeat ISIS?",
         "answers": {
         "A": "It's a secret",
-        "B": "It's tremendous",
-        "C": "What plan?"
+        "B": "What plan?",
+        "C": "It's tremendous"
         },
-        "answer": "C",
-        "explanation": "On September 7th, Donald Trump revealed that he has no plan to defeat ISIS. Trump claimed he had a \"secret\" plan. Then he implied that he hadn't come up with it yet (\"when I do come up with a plan that I like\".) But then he said he would convene his \"top generals\" to come up with the plan. So, which is it, Donald?"
+        "answer": "B",
+        "explanation": "On September 7th, Donald Trump revealed that he has no plan to defeat ISIS. Trump claimed he had a \"secret\" plan. Then he implied that he hadn't come up with it yet: \"when I do come up with a plan that I like\". But then he said he would convene his \"top generals\" to come up with the plan."
     },
     "159": {
-        "question": "True or False: the United States has a national standard for early voting?",
+        "question": "True or false: The United States has a national standard for early voting",
         "answer": "FALSE",
         "explanation": "As president, Hillary Clinton will set a national standard for early voting. In an effort to reduce long lines and give more people with family or work obligations an opportunity to vote, the national standard for early voting will give voters at least 20 days to vote in the evenings or on weekends before election day."
     },
     "160": {
-        "question": "Which voters have become more disenfranchised since 2013?",
+        "question": "Which group of voters have become more disenfranchised since 2013?",
         "answers": {
         "A": "Young voters",
         "B": "Senior voters",
@@ -1465,22 +1440,22 @@
         "explanation": "Hillary Clinton will fight back against harmful restrictions on voting across the country, so that minority voters, young people, low-income voters, seniors, and women are equally capable as others at expressing their voices and their votes in our democracy."
     },
     "161": {
-        "question": "True or False: Hillary Clinton supports universal voter registration.",
+        "question": "True or false: Hillary Clinton supports universal voter registration.",
         "answer": "TRUE",
-        "explanation": "Hillary Clinton has called for universal, automatic voter registration, where every citizen in every state in the union would be automatically registered to vote when they turn eighteen - unless they actively choose to opt out."
+        "explanation": "Hillary Clinton has called for universal, automatic voter registration, where every citizen in every state in the union would be automatically registered to vote when they turn eighteen, unless they actively choose to opt out."
     },
     "162": {
         "question": "Who is systemically disempowering millions of voters?",
         "answers": {
         "A": "Election boards",
-        "B": "State Legislators",
-        "C": "The IRS"
+        "B": "The <say-as interpret-as=\"spell-out\">IRS</say-as>",
+        "C": "State Legislators"
         },
-        "answer": "B",
-        "explanation": "Ever since the Supreme Court eviscerated key provisions of the Voting Rights Act in 2013, Republican governors and legislatures across the country have proposed and passed laws making it harder to vote, systemically disempowering millions of voters-particularly people of color, poor people, and young people."
+        "answer": "C",
+        "explanation": "Ever since the Supreme Court eviscerated key provisions of the Voting Rights Act in 2013, Republican governors and legislatures across the country have proposed and passed laws making it harder to vote, systemically disempowering millions of voters, particularly people of color, poor people, and young people."
     },
     "163": {
-        "question": "True or False: Voting rights is a partisan issue.",
+        "question": "True or false: Voting rights is a partisan issue.",
         "answer": "FALSE",
         "explanation": "Hillary Clinton supports implementation of the recommendations of the President's bipartisan presidential commission to improve voting, which includes expanding early, absentee, and mail voting, providing online voter registration, and establishing the principle that no one should ever have to wait more than 30 minutes to vote."
     }
