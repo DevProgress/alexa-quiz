@@ -2,24 +2,17 @@ Test your knowledge and learn about history and current issues.  Answer a few qu
 
 Sample questions:
 
-In 1832, unions from which region of the country began the fight to regulate child labor?
-- A New England
-- B the West Coast
-- C the Central Plains
+In how many states is the annual cost of infant child care higher than a year's in-state college tuition and fees at a public university?
+- A: 3
+- B: 13
+- C: 27
 
-Which health care obstacle is addressed by a mental health parity law?
-- A Term limits
-- B Treatment limits
-- C Parental consent
-
-Under Hillary's plan, what is the maximum percentage of household income that should be spent on child care?
-- A 20%
-- B 10%
-- C 30%"
+True or false: The last Democrat endorsed by the Dallas Morning News was Franklin Delano Roosevelt
 
 To get started, say "Alexa, run Quiz for America."
 
 For true/false questions, answer with true or false.  For multiple choice questions, say the letter corresponding to your answer.
 
 To repeat a question, say "repeat".  After 10 questions, you'll get a scorecard with questions, answers, and explanations in the Alexa app.  If you want to stop sooner, just say "stop."  This skill has over 150 questions, so you can play multiple times.
+
 
