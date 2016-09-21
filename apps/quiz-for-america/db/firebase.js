@@ -48,21 +48,12 @@ module.exports = {
         console.log('save session for ', uid);
         var ref = firebase.database().ref('/sessions/'+uid);
         return ref.set(session);
-        /*
-        return ref.once('value').then(function(snapshot) {
-            var saved = snapshot.val() || {};
-            saved = Object.assign(saved, session);
-            console.log('save uid='+uid+' saved=', saved);
-            ref.set(saved);
-        });
-        */
     },
 
     logAnswer: function(questionId, answer) {
         console.log('logAnswer: question='+questionId+' answer='+answer);
         var ref = firebase.database().ref('/logs/questions/'+questionId);
         ref.transaction(function(q) {
-            console.log('transaction: q=', q);
             if (q) {
                 if (q[answer]) {
                     q[answer] += 1;
@@ -73,7 +64,6 @@ module.exports = {
                 q = {};
                 q[answer] = 1;
             }
-            console.log('transaction: done q=', q);
             return q;
         });
     },
