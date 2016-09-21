@@ -45,7 +45,7 @@
         "explanation": "According to a 2013 study by the think tank Demos, college-educated households with student debt stand to lose $208,000 over a lifetime, mostly from a lack of retirement savings.  Education should hold the key to a brighter future-not a lifetime of debilitating debt."
     },
     "6": {
-        "question": "Between 2000 and 2012, on average how much did the annual cost of child care increase?",
+        "question": "Between 2000 and 20 12, on average how much did the annual cost of child care increase?",
         "answers": {
         "A": "25%",
         "B": "No increase",
@@ -358,11 +358,11 @@
         "question": "Which treaty did Hillary oversee to ensure the reduction of United States and Russian nuclear arsenals?",
         "answers": {
         "A": "<say-as interpret-as=\"spell-out\">UN</say-as> Arms Treaty",
-        "B": "New <say-as interpret-as=\"spell-out\">START</say-as> Treaty",
-        "C": "<say-as interpret-as=\"spell-out\">SORT</say-as> Treaty"
+        "B": "New START Treaty",
+        "C": "SORT Treaty"
         },
         "answer": "C",
-        "explanation": "Hillary oversaw negotiation and worked to ensure ratification of the New <say-as interpret-as=\"spell-out\">START</say-as> treaty, which will make the world safer by reducing United States and Russian nuclear arsenals to their smallest size in 50 years."
+        "explanation": "Hillary oversaw negotiation and worked to ensure ratification of the New START treaty, which will make the world safer by reducing United States and Russian nuclear arsenals to their smallest size in 50 years."
     },
     "39": {
         "question": "What has Hillary done for Women's Rights?",
@@ -510,7 +510,7 @@
         "explanation": "Our drinking water systems, parts of which are more than a century old, leak nearly 6 billion gallons every day, or roughly one-sixth of our daily water use. Clinton will work to create a bold agenda to revitalize our aging water infrastructure and make it more sustainable and energy efficient."
     },
     "54": {
-        "question": "Clinton would use $25 billion to create what to help national infrastructure?",
+        "question": "Clinton wants to improve national infrastructure with what new $25 billion initiative?",
         "answers": {
         "A": "bank",
         "B": "wall",
@@ -637,7 +637,7 @@
     "69": {
         "question": "How many young Americans want to start a business?",
         "answers": {
-        "A": "More than 30 percent",
+        "A": "About 30 percent",
         "B": "More than 50 percent",
         "C": "Less than 10 percent"
         },
@@ -1182,9 +1182,9 @@
     "131": {
         "question": "What percentage of rural Americans bank at community banks?",
         "answers": {
-        "A": "70",
-        "B": "90",
-        "C": "35"
+        "A": "70%",
+        "B": "90%",
+        "C": "35%"
         },
         "answer": "A",
         "explanation": "Community banks are vital to our rural businesses. A National Federation of Independent Businesses survey found that more than 70 percent of rural respondents identified their primary financial institution as a local bank, compared to 49 percent of urban respondents."
