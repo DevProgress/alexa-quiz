@@ -43,7 +43,8 @@ app.card = function(current) {
         }
         content += '\n'+question.q.explanation+'\n';
     });
-    content += '\nContent created by volunteers with DevProgress http://devprogress.us';
+    content += '\nContent created by volunteers with DevProgress\n';
+    content += 'http://devprogress.us\n';
     card.content = content;
     return card;
 };
@@ -66,6 +67,7 @@ app.startQuiz = function(response, used) {
 app.launch(function(request, response) {
     console.log('launch');
     app.db.loadSession(request.userId).then((savedSession) => {
+        console.log('loaded session ', savedSession);
         var say = [];
         var used = [];
         // copy saved session into current session
@@ -78,12 +80,13 @@ app.launch(function(request, response) {
                 response.session(key, savedSession[key]);
             });
         }
-        say.push('<s>Welcome to quiz for America. <break strength="medium" /></s>');
+        say.push('<s>Welcome to Quiz for America. <break strength="medium" /></s>');
         if (!savedSession) {
-            say.push("<s>I'll ask a multiple choice question.</s>");
-            say.push('<s>Say the letter matching your answer, or say repeat <break strength="medium" /> to hear the question again.</s>');
             say.push('<s>Each quiz has ten questions.</s>');
-            say.push('Say stop <break strength="medium" /> to end the quiz early.</s>');
+            say.push("<s>I'll ask a multiple choice or true false question.</s>");
+            say.push('<s>Say true, false, or the letter matching your answer.</s>');
+            say.push('<s>To hear a question again, say repeat.</s>');
+            say.push('<s>Say stop <break strength="medium" /> to end the quiz early.</s>');
         }
         say = say.concat(app.startQuiz(response, used));
         response.say(say.join('\n'));
@@ -93,19 +96,20 @@ app.launch(function(request, response) {
 });
 
 app.intent('AMAZON.HelpIntent', function(request, response) {
-    response.say('Say repeat to hear the question again, or stop to end.');
+    response.say('Say repeat <break strength="medium" /> to hear the question again, or stop <break strength="medium" /> to end.');
     response.shouldEndSession(false);
 });
 
 app.intent('AMAZON.StopIntent', function(request, response) {
     var current = JSON.parse(request.session('current') || '{}');
     var score = quiz.getScore(current);
-    var say = ['Thanks for playing quiz for America. '];
-    if (score) {
-        say.push('You got '+score+' questions correct. Check your Alexa app for detailed results.');
+    var say = ['Thanks for playing Quiz for America. '];
+    if (Object.keys(current).length) {
+        say.push('<s>You got '+score+' questions correct.</s>');
+        say.push('<s>Check your Alexa app for detailed results.</s>');
+        response.card(app.card(current));
     }
-    say.push('Remember to vote on November eighth.');
-    response.card(app.card(current));
+    say.push('<s>Remember to vote on November eighth.</s>');
     response.say(say.join('\n'));
 });
 
@@ -150,8 +154,9 @@ app.intent('AnswerIntent',
         // found question in session; check answer
         if (q) {
             var answer = request.slot('ANSWER');
-            if (answer === "I don't know") {
-                answer = '';
+            console.log('answer slot=', answer);
+            if (!answer || answer === "I don't know") {
+                answer = 'X';
             } else {
                 var first = answer.slice(0, 1).toUpperCase();
                 if (q.isBoolean()) {
@@ -162,7 +167,7 @@ app.intent('AnswerIntent',
                     answer = first;
                 }
             }
-            console.log('answer='+answer);
+            console.log('answer normalized='+answer);
             app.db.logAnswer(currentQuestionId, answer);
             var sayAnswer = q.answer(answer);
             if (q.isCorrect(answer)) {
@@ -182,10 +187,10 @@ app.intent('AnswerIntent',
         var numQuestions = Object.keys(current).length;
         console.log('questions=', numQuestions);
         if (numQuestions === 10) {
-            response.say("<s>Congratulations! You've answered ten questions. "+
-                'Check your Alexa app for detailed results. '+
-                'To start another quiz, say another.'+
-                "Don't forget to vote on November eighth.</s>");
+            say.push("<s>Congratulations! You've answered ten questions.</s>");
+            say.push('<s>Check your Alexa app for detailed results.</s>');
+            say.push('<s>To start another quiz, say <break strength="x-strong" /> another.</s>');
+            say.push("<s>Don't forget to vote on November eighth.</s>");
             response.card(app.card(current));
         } else {
             // get next question
@@ -205,7 +210,6 @@ app.intent('AnswerIntent',
             response.session(key, session[key]);
         });
         app.db.saveSession(request.userId, session).then(() => {
-            console.log('saved session');
             response.say(say.join('\n'));
             response.send();
         });
