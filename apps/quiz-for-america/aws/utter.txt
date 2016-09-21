@@ -1,7 +1,8 @@
 RepeatIntent repeat that
+RepeatIntent repeat
 RepeatIntent what
 RepeatIntent what was that
-RepeatIntent again
+RepeatIntent repeat that
 AnswerIntent {ANSWER}
 AnswerIntent I don't know
 AnotherIntent another
