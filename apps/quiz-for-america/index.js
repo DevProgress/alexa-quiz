@@ -100,7 +100,7 @@ app.intent('AMAZON.HelpIntent', function(request, response) {
     response.shouldEndSession(false);
 });
 
-app.intent('AMAZON.StopIntent', function(request, response) {
+app.stopOrCancel = function(request, response) {
     var current = JSON.parse(request.session('current') || '{}');
     var score = quiz.getScore(current);
     var say = ['Thanks for playing Quiz for America. '];
@@ -111,6 +111,14 @@ app.intent('AMAZON.StopIntent', function(request, response) {
     }
     say.push('<s>Remember to vote on November eighth.</s>');
     response.say(say.join('\n'));
+};
+
+app.intent('AMAZON.StopIntent', function(request, response) {
+    app.stopOrCancel(request, response);
+});
+
+app.intent('AMAZON.CancelIntent', function(request, response) {
+    app.stopOrCancel(request, response);
 });
 
 app.intent('CardIntent', function(request, response) {
