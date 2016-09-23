@@ -28,7 +28,7 @@ app.card = function(current) {
         return card;
     }
     var content = 'You got '+quiz.getScore(current)+' of '+ids.length;
-    content += ids.length === 1 ? ' question' : 'questions';
+    content += ids.length === 1 ? ' question' : ' questions';
     content += ' correct.\n';
     Object.keys(current).forEach((q) => {
         var question = quiz.getQuestion(q);
@@ -41,7 +41,11 @@ app.card = function(current) {
         } else {
             content += question.q.answers[question.q.answer];
         }
-        content += '\n'+question.q.explanation+'\n';
+        content += '\n'+question.q.explanation;
+        if (question.q.source) {
+            content += ' (source: '+question.q.source+')';
+        }
+        content += '\n';
     });
     content += '\nContent created by volunteers with DevProgress\n';
     content += 'http://devprogress.us\n';
