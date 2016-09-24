@@ -165,19 +165,10 @@ app.intent('AnswerIntent',
         var score = quiz.getScore(JSON.parse(request.session('current') || '{}'));
         // found question in session; check answer
         if (q) {
-            var answer = request.slot('ANSWER');
-            console.log('answer slot=', answer);
-            if (!answer || answer === "I don't know") {
+            var answer = request.slot('ANSWER') || 'X';
+            answer = answer.slice(0, 1).toUpperCase();
+            if (q.validAnswers().indexOf(answer) < 0) {
                 answer = 'X';
-            } else {
-                var first = answer.slice(0, 1).toUpperCase();
-                if (q.isBoolean()) {
-                    // TRUE or FALSE
-                    answer = first === 'T' ? 'TRUE' : 'FALSE';
-                } else {
-                    // one uppercase letter
-                    answer = first;
-                }
             }
             console.log('answer normalized='+answer);
             app.db.logAnswer(currentQuestionId, answer);

@@ -20,11 +20,26 @@ Question.prototype = {
     },
 
     answer: function(a) {
-        return this.q.answers ? this.q.answers[a] || '' : this.q.answer;
+        var key = a || '';
+        if (this.isBoolean()) {
+            if (a.startsWith('T')) {
+                key = 'TRUE';
+            }
+            if (a.startsWith('F')) {
+                key = 'FALSE';
+            }
+        } else {
+            key = key.slice(0, 1).toUpperCase();
+        }
+        return this.q.answers ? this.q.answers[key] || '' : this.q.answer;
     },
 
     sayLetter: function(letter) {
         return '<say-as interpret-as="characters">' + letter +'</say-as> <break strength="medium" /> ';
+    },
+
+    validAnswers: function() {
+        return this.isBoolean() ? ['T', 'F'] : ['A', 'B', 'C'];
     },
 
     answers: function() {
@@ -67,7 +82,6 @@ Question.prototype = {
             return this.q.answer;
         }
         var answer = this.q.answers[this.q.answer];
-        console.log('answerText: answer='+this.q.answer+' lookup='+answer);
         if (!answer) {
             return '';
         }
