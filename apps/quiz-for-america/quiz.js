@@ -112,6 +112,11 @@ quiz.getQuestion = function(id) {
     return id ? new Question(id) : null;
 };
 
+quiz.isAskable = function(questionNumber) {
+    var length = Object.keys(questions).length;
+    return (questionNumber > 0) && (questionNumber <= length);
+}
+
 quiz.getScore = function(responses) {
     // responses = {questionId: response, ... }
     if (!responses) {
